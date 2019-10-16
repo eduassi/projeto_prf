@@ -1,0 +1,184 @@
+.modulo_1 .animation-screen {
+  position: relative;
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.modulo_1 .quiz_background_animated {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.modulo_1 .full_height_character_holder {
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  left: 50%;
+  bottom: 0;
+}
+
+.modulo_1 .lss_quiz .outerBox {
+  background: #e5e5e3;
+  padding: 30px;
+  padding-top: 45px;
+  width: 100%;
+}
+
+.modulo_1 #julia_waiting {
+  position: absolute;
+  z-index: 1;
+  width: 19vw;
+  left: -8.8vw;
+  bottom: 0;
+}
+.modulo_1 #julia_responde {
+  position: absolute;
+  z-index: 2;
+  width: 19vw;
+  left: -8.8vw;
+  bottom: 0;
+  display: none;
+}
+
+.modulo_1 table td {
+  vertical-align: middle !important;
+  padding: 5px !important;
+}
+.modulo_1 table .table-destaque {
+  background: var(--DNIT_COLOR_MODULE_ONE);
+}
+.modulo_1 table .table-destaque td {
+  background: var(--DNIT_COLOR_MODULE_ONE);
+}
+
+@media only screen and (max-width: 719px) {
+  .modulo_1 .animation-screen {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0;
+    background: white;
+    border-radius: 15px;
+  }
+
+  .modulo_1 .full_height_character_holder {
+    bottom: 0;
+  }
+
+  .modulo_1 #julia_waiting {
+    width: 25vw;
+    left: -11.5vw;
+  }
+  .modulo_1 #julia_responde {
+    width: 25vw;
+    left: -11.5vw;
+  }
+
+  .modulo_1 .quiz_background_animated {
+    border-radius: 15px;
+  }
+
+  .modulo_1 .outerBox {
+    padding: 16px !important;
+  }
+
+  .modulo_1 .lss_quiz .questionsBox {
+    padding: 16px !important;
+  }
+
+  .modulo_1 .questions {
+    margin-bottom: 16px;
+    font-size: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .modulo_1 .lss_quiz label {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .modulo_1 #julia_waiting {
+    width: 33vw;
+    left: -15.1vw;
+  }
+  .modulo_1 #julia_responde {
+    width: 33vw;
+    left: -15.1vw;
+  }
+}
+
+.region_table {
+  display: none;
+}
+
+.modal-lg {
+  width: 80vw;
+}
+
+.carousel {
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid var(--DNIT_COLOR_MODULE_ONE);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+  background-image: none;
+}
+
+.carousel-control-next-icon {
+  content: "";
+  background-image: url(../../assets/images/module_1/resources/forward_bt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-control-prev-icon {
+  content: "";
+  background-image: url(../../assets/images/module_1/resources/backard_bt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-inner {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-indicators {
+  margin-bottom: 15px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-indicators li {
+  background: var(--DNIT_COLOR_MODULE_ONE);
+  width: 25px;
+  height: 5px !important;
+  border-radius: 50%;
+}
+.carousel-indicators li{
+    background: var(--DNIT_COLOR_MODULE_ONE);
+    width: 25px;
+    height: 5px !important;
+    border-radius: 50%;
+}
+
+#tables_modal .modal-content{
+    border-radius: 20px !important;
+}
