@@ -23,6 +23,10 @@
     {
       "placeholder": "Capítulo 3",
       "url": "pages/capitulo_2.html"
+    },
+    {
+      "placeholder": "Capítulo 4",
+      "url": "pages/capitulo_3.html"
     }
   ]
 }
