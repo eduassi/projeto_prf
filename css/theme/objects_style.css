@@ -757,12 +757,14 @@ ul {
   position: relative;
   width: 100%;
   height: auto;
-  border: 2px solid var(--THEME_COLOR_MODULE_ONE);
+  border: 2px solid var(--DNIT_COLOR_MODULE_ONE) ;
+
   padding: 15px;
   padding-top: 60px;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+
 
 
 /* SAIBA MAIS END */
