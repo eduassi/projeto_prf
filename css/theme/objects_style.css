@@ -729,87 +729,46 @@ ul {
 }
 /* PUZZLE END */
 
-/* SAIBA MAIS START */
 
-.saiba-mais,
-.case,
-.reflexao,
-.glossario {
-	width: 100%;
-	height: auto;
-	padding-top: 70px;
+
+
+.box-dtq {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 52px;
+  /* background: yellow; */
 }
-.saiba-mais {
-	background: url(../../assets/images/identity/resources/mais.png) top left no-repeat;
-}
-.case {
-	background: url(../../assets/images/identity/resources/case.png) top left no-repeat;
-}
-.reflexao {
-	background: url(../../assets/images/identity/resources/reflexao.png) top left no-repeat;
-}
-.glossario {
-	background: url(../../assets/images/identity/resources/glossario.png) top left no-repeat;
+.box-dtq h5 {
+  text-align: center;
 }
 
-.saiba-mais p,
-.case p,
-.reflexao p,
-.glossario p {
-	margin: 0;
-	text-align: justify;
-}
-.saiba-mais .bgl,
-.saiba-mais .bgr,
-.case .bgl,
-.case .bgr,
-.reflexao .bgl,
-.reflexao .bgr,
-.glossario .bgl,
-.glossario .bgr {
-	width: 100%;
-	height: auto;
-}
-.saiba-mais .bgl,
-.case .bgl,
-.reflexao .bgl,
-.glossario .bgl {
-	background: url(../../assets/images/identity/resources/mais-left-bottom.png) bottom left
-		no-repeat;
-}
-.saiba-mais .bgr,
-.case .bgr,
-.reflexao .bgr,
-.glossario .bgr {
-	background: url(../../assets/images/identity/resources/mais-right-top.png) top right
-		no-repeat;
-	padding: 10px 15px;
+.box-dtq img{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right: 0;
+  top:-52px;
+  border-radius: 100%;
 }
 
-.saiba-mais a,
-.case a,
-.reflexao a,
-.glossario a {
-	color: var(--THEME_COLOR_LINK) !important;
+.box-dtq div{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--THEME_COLOR_MODULE_ONE);
+  padding: 15px;
+  padding-top: 60px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
-.copyright {
-	position: relative;
-	background: var(--THEME_COLOR_QUARTIARY);
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-.copyright p {
-	color: white;
-}
-.icon-touch {
-	position: absolute;
-	z-index: 1;
-	top: 30px;
-	right: 10px;
-}
 
 /* SAIBA MAIS END */
+
+
+
 
 /* SPLIT CAROUSEL START */
 .text-item.not-active{

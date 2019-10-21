@@ -1,451 +1,734 @@
 <div class="container col-4 mx-auto">
-        <p>
-            Identidade:
-            <select id="module_selector" class="w-100" onchange="change_module()">
-                <option value="1">Módulo 1</option>
-                <option value="2">Módulo 2</option>
-                <option value="3">Módulo 3</option>
-                <option value="4">Módulo 4</option>
-            </select>
-        </p>
-    </div>
-    
+	<p>
+		Identidade:
+		<select id="module_selector" class="w-100" onchange="change_module()">
+			<option value="1">Módulo 1</option>
+			<option value="2">Módulo 2</option>
+			<option value="3">Módulo 3</option>
+			<option value="4">Módulo 4</option>
+		</select>
+	</p>
+</div>
 
-    <section class='mb-5 py-2 '>
-        
-      <div class="container">
-        <h1>Jogos</h1>
-      </div>
-    
-    </section>
 
-<section class="container matchup">
-	<h2>5.1 - Matchup (Jogo da Memória)</h2>
-	<div class="container matchup_container">
-		<script id="cards" type="application/json">
-			{
-			"settings":{
-			"rows": 4,
-			"columns": 4,
-			"offset": 100
-			},
-			"mobile_settings":{
-			"rows": 4,
-			"columns": 4,
-			"offset": 70
-			},
-			"cards":[
-			[{"card": "assets/images/module_1/stock/imagem_04.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_05.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_06.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_07.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_08.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_09.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_10.jpg",  "type":"img"}],
-			[{"card": "assets/images/module_1/stock/imagem_11.jpg",  "type":"img"}]
-			]
-			}
-		</script>
-	</div>
+<section class='mb-5 py-2 '>
+	
+  <div class="container">
+	<h1>COMPONENTES INTERATIVOS</h1>
+  </div>
+
 </section>
 
-<section class="container puzzle">
-	<h2>5.2 - Puzzle (Quebra-Cabeça)</h2>
-	<div class="container puzzle_container">
-		<script id="puzzle_json" type="application/json">
-			{
-			"settings":{
-			"rows": 4,
-			"columns": 4,
-			"factor_view": 0.5,
-			"offset": 100
-			},
-			"mobile_settings":{
-			"rows": 2,
-			"columns": 2,
-			"factor_view": 0.5,
-			"offset": 70
-			},
-			"img": "assets/images/module_1/stock/imagem_04.jpg"
-			}
-		</script>
+<section class="section">
+  <div class="container">
+	<h2>3.1.1 CAROUSEL SPLIT FRAN</h2>
+	<div class='row align-items-center ventanitas_pin_marker'>
+		<div class='col-xs-12 col-sm-6 col-xs-12 ventanita-box'>
+			<div class="pin-marker"></div>
+			<div class='ventanita-show'>
+				Fase 1 - Quis autem vel eum
+			</div>
+			<div class='ventanita-show'>
+				Fase 2 - He slid back into
+			</div>
+			<div class='ventanita-show'>
+				Fase 3 - Praesent in mauris eu
+			</div>
+			<div class='ventanita-show'>
+				Fase 4 - Morbi a metus
+			</div>
+		</div>
+		<div col-xs-12 class='col-sm-6 col-xs-12'>
+			<div class='ventanita-caract' id="ventanita-objects">
+				<p class='text-center ventana active' id='ventanita-placeholder'>
+					<span class='d-none d-sm-block d-xs-block'>Clique nos botões ao lado.</span>
+					<span class='d-block d-sm-none d-xs-none'>Clique nos botões acima.</span>
+				</p>
+				<p class="ventana">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce nibh. Duis risus. Curabitur sagittis hendrerit ante. Aliquam erat volutpat. Vestibulum erat nulla, ullamcorper</p>
+
+				<p class="ventana">In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum</p>
+
+				<p class="ventana">Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Integer vulputate sem a nibh rutrum consequat. Maecenas lorem. Pellentesque pretium lectus id turpis. Etiam sapien elit, consequat eget, tristique</p>
+
+				<p class="ventana">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+
+			</div>
+
+		</div>
 	</div>
+  </div>
 </section>
 
-<section class="container ">
+<section class="section">
+  <div class="container">
+	<h2>3.1.2 CAROUSEL SPLIT MENU TEXT</h2>
+	<div class="row row-eq-height align-items-center split_carousel_pin_marker">
+		<div class="col-12 col-sm-6">
+			<div class="pin-marker"></div>
+			<div class="row">
+				<div class="col-lg-4 offset-lg-2 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="0">Anim pariatur cliche</button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="1">Cras eros orci</button>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-4 offset-lg-2 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="2">Aliquam lectus</button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="3">Aliquam nisl</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6">
+			<div class="split_text_box">
+				<div class="text-item">
+					<p>
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+						squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+						quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+						craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+						butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+						nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>
+						Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam
+						nec consequat. Integer non metus sit amet magna vulputate bibendum sit amet at quam.
+						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+						egestas.
+					</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>
+						Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
+						ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
+						aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
+						laoreet dapibus nunc non, ornare congue augue.
+					</p>
+				</div>
+				<div class="text-item not-active">
+					<p>
+						Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
+						ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
+						aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
+						laoreet dapibus nunc non, ornare congue augue.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+	<h2>3.1.3 CAROUSEL SPLIT MENU IMAGE</h2>
+	<div class="row row-eq-height align-items-center split_carousel_img">
+		<div class="col-12 col-sm-6">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="0" style="background:url(assets/images/module_1/stock/imagem_07.jpg) center no-repeat; background-size:100% 100%"></button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="1" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center; background-size:100%"></button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="2" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size:100% 100%"></button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="3" style="background:url(assets/images/module_1/stock/imagem_04.jpg) center no-repeat; background-size:100% 100%"></button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="4" style="background:url(assets/images/module_1/stock/imagem_05.jpg) center no-repeat; background-size:100% 100%"></button>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-4">
+					<button class="split_button" target-index="5" style="background:url(assets/images/module_1/stock/imagem_06.jpg) center no-repeat; background-size:100% 100%"></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6">
+			<div class="split_text_box">
+				<div class="text-item">
+					<p>
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+						squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+						quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+						craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+						butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+						nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>
+						Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam
+						nec consequat. Integer non metus sit amet magna vulputate bibendum sit amet at quam.
+						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+						egestas.
+					</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>
+						Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
+						ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
+						aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
+						laoreet dapibus nunc non, ornare congue augue.
+					</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis felis, egestas et iaculis eu, euismod quis lorem. Sed hendrerit tempus ipsum non cursus. Cras lacus diam, consequat nec egestas vel, vehicula vitae eros. Proin volutpat orci velit, non ornare arcu blandit ac. Sed aliquet ex massa, auctor malesuada sem faucibus et. Etiam ultricies, tortor nec euismod pharetra, leo diam faucibus mi, mattis sollicitudin tellus velit ac sem. Vivamus in neque vehicula, sagittis purus a, volutpat metus.</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>Morbi porta mauris lacus, ut rhoncus diam vestibulum id. Aliquam erat volutpat. Curabitur felis sapien, faucibus vel fermentum faucibus, venenatis at risus. Aenean rhoncus maximus suscipit.</p>
+					<p>Nam sit amet mi eros. In quis tempus ex. Donec hendrerit sit amet mi eget porttitor. Aenean nec orci dapibus lectus vulputate facilisis at ut mi. Nullam efficitur ultricies tincidunt. In non augue tortor.</p>
+				</div>
+
+				<div class="text-item not-active">
+					<p>Donec nisl magna, vehicula eu lorem ac, auctor cursus nunc. Ut vitae consectetur ipsum, vitae aliquet urna. Sed eu velit ornare metus fringilla eleifend. Duis tincidunt turpis a cursus rutrum. Donec euismod nulla ex, vel facilisis lectus molestie et.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container">
+	<h2>3.2 Carousel-Slider (new)</h2>
 	<div class="row">
 		<div class="col-12">
-			<h2>5.3 - LSS Quiz</h2>
-			<span class="lss_quiz">
-				<div id="game_box" class="row">
-					<div class="outerBox">
-						<div class="lss-progress lss-progress-striped lss-active">
-							<div
-								class="lss-progress-bar"
-								data-bind="style: 100%, text:labelPercent"
-								style="width: 0;"
-								id="progress_lettering"
-							></div>
-						</div>
-
-						<div class="animation-screen">
-							<div class="full_height_character_holder">
-								<div
-									class="aps-animator"
-									id="julia_responde"
-									animation-configuration="palinmation looping"
-									looping-counter="1"
-								>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia1.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia2.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia3.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="400"
-										src="assets\images\module_1\animacoes\julia_rising_hand\julia4.png"
-									/>
-								</div>
-
-								<div
-									class="aps-animator"
-									id="julia_waiting"
-									animation-configuration="looping autoplay"
-									looping-counter="0"
-								>
-									<img
-										class="frame"
-										frame-duration="1600"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca1.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca2.png"
-									/>
-									<img
-										class="frame"
-										frame-duration="100"
-										src="assets\images\module_1\animacoes\julia_piscando\pisca3.png"
-									/>
-								</div>
-							</div>
-
-							<img
-								class="quiz_background_animated"
-								src="assets/images/module_1/content/quiz_bg.gif"
-							/>
-						</div>
-
-						<div class="questionsBox">
-							<div class="questions" id="lettering"></div>
-							<ul class="answerList" id="choices_group"></ul>
-						</div>
+			<div id="IdentifierCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#IdentifierCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#IdentifierCarousel" data-slide-to="1"></li>
+					<li data-target="#IdentifierCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="assets\images\module_1\stock\imagem_01.jpg" alt="First slide">
+						<p style="text-align: center;">PODE TER TEXTO TAMBÉM</p>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets\images\module_1\stock\imagem_02.jpg" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets\images\module_1\stock\imagem_03.jpg" alt="Third slide">
 					</div>
 				</div>
+				<a class="carousel-control-prev" href="#IdentifierCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#IdentifierCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+  </div>
+</section>
 
-				<div id="demo_final" class="col-md-10 mx-auto">
-					<div class="feedback-box" id="final_bad">
-						<img
-							class="feedback-image img-fluid d-none d-sm-block img-desktop"
-							src="assets/images/module_1/content/feedback_bad.png"
-						/>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_bad"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets\images\module_1\content\feedback_bad_responsive.png"
-							/>
-						</div>
+<section class="section">
+  <div class="container">
+	<h2>3.2.6 - Jesus Slider Botão Imagem</h2>
+	<div class="row jesus_slider_no_arrow_image_background">
+	  <div class="col-10 mx-auto no-overflow">
+		<div class="jesus_slides">
+		  <div class="jesus-head jesus-set align-items-center active">
+			<div class="slide_ball">I</div>
+		  </div>
+		  <div class="jesus-set align-items-center">
+			<div class="slide_ball">II</div>
+		  </div>
+		  <div class="jesus-set align-items-center">
+			<div class="slide_ball">III</div>
+		  </div>
+		  <div class="jesus-set align-items-center">
+			<div class="slide_ball">IV</div>
+		  </div>
+		  <div class="jesus-set align-items-center">
+			<div class="slide_ball">V</div>
+		  </div>
+		  <div class="jesus-set align-items-center">
+			<div class="slide_ball">VI</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-12 col-md-10 mx-auto mt-3">
+		<div class="jesus_board">
+		  <div class="text-area">
+			<div class="text-item active">
+			  <div class="row">
+				<div class="col-sm-12 col-md-10 mx-auto">
+				  <p class="mb-0">Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="text-item">
+			  <div class="row">
+				<div class="col-sm-12 col-md-10 mx-auto pb-5">
+				  <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="text-item">
+			<div class="row">
+			  <div class="col-sm-12 col-md-10 mx-auto">
+				<p class="mb-0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="text-item">
+			<div class="row">
+			  <div class="col-sm-12 col-md-10 mx-auto">
+				<p class="mb-0">Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="text-item">
+			<div class="row">
+			  <div class="col-sm-12 col-md-10 mx-auto">
+				<p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="text-item">
+			<div class="row">
+			  <div class="col-sm-12 col-md-10 mx-auto">
+				<p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+
+
+
+<section class="section">
+	<div class="container">
+		<h2>3.3.1 - Flipster Linear</h2>
+		<div class="row flipster_slider">
+			<div class="col-12 no-overflow">
+				<div class="flipster_slides align-items-center">
+					<div class="flipster-set flipster-head align-items-center active" order="0">
+						<div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster-set align-items-center" order="1">
+						<div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_05.jpg) center no-repeat; background-size: 100% 100%;"></div>
 					</div>
 
-					<div class="feedback-box" id="final_medium">
-						<img
-							class="feedback-image img-fluid d-none d-sm-block"
-							src="assets/images/module_1/content/feedback_medium.png"
-						/>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_medium"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets\images\module_1\content\feedback_medium_responsive.png"
-							/>
-						</div>
+					<div class="flipster-set align-items-center" order="2">
+						<div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center no-repeat; background-size: 100% 100%;"></div>
 					</div>
 
-					<div class="feedback-box" id="final_good">
-						<video
-							class="image-responsive d-none d-sm-block"
-							loop
-							autoplay
-							muted
-						>
-							<source
-								src="assets/images/module_1/content/feedback_good.mp4"
-								type="video/mp4"
-							/>
-						</video>
-						<div class="d-block d-sm-none">
-							<div
-								class="aps-animator"
-								style="position: absolute;"
-								id="lights_good"
-								animation-configuration="looping autoplay"
-								looping-counter="0"
-							>
-								<img
-									class="frame"
-									frame-duration="300"
-									src="assets\images\module_1\animacoes\lights\light_off.png"
-								/>
-								<img
-									class="frame"
-									frame-duration="200"
-									src="assets\images\module_1\animacoes\lights\light_on.png"
-								/>
-							</div>
-							<img
-								class="feedback-image img-fluid mb-2"
-								src="assets/images/module_1/content/feedback_good_responsive.png"
-							/>
-						</div>
+					<div class="flipster-set align-items-center" order="3">
+						<div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_07.jpg) center no-repeat; background-size: 100% 100%;"></div>
 					</div>
 				</div>
-
-				<script id="database" type="application/json">
-					{
-					"settings": {
-					"questions": 10,
-					"answers": 3,
-					"randomize_questions": true,
-					"randomize_answers": true
-					},
-					"gamemode": {
-					"feedback_mode": true,
-					"feedback_rule": "min-max",
-					"feedbacks": [{
-					"bounds": [7, 10],
-					"target": "final_bad"
-					},
-					{
-					"bounds": [3, 6],
-					"target": "final_medium"
-					},
-					{
-					"bounds": [0, 2],
-					"target": "final_good"
-					}
-					]
-					},
-					"questions": [{
-					"Title": "Quando alguém vai lhe deixar em algum lugar, com automóvel, e não existe vaga liberada para o embarque e desembarque:",
-					"Answers": [{
-					"Title": "Não se incomoda em descer em local proibido, como fila dupla, contramão, na esquina ou em local sinalizado, desde que atenda à sua necessidade",
-					"Score": 1
-					},
-					{
-					"Title": "Demonstra à pessoa a sua insatisfação em ter de descer em local proibido, mas se convence de que não há outro jeito",
-					"Score": 0.5
-					},
-					{
-					"Title": "Convence o motorista a procurar um lugar permitido à parada de veículo, ainda que você tenha que andar um pouco mais para chegar ao seu destino",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está com um grupo de amigos em número superior à capacidade de passageiros do automóvel:",
-					"Answers": [{
-					"Title": "Entra no carro assim mesmo, se arrumando como for possível, ainda que fique apertado e/ou um no colo do outro",
-					"Score": 1
-					},
-					{
-					"Title": "Tenta procurar uma solução mais adequada, sugerindo que dividam os passageiros nos veículos de outros amigos, mas, na impossibilidade, resigna-se com a situação",
-					"Score": 0.5
-					},
-					{
-					"Title": "Não concorda com a situação e chama um táxi para acomodar você e outros que se convenceram de seu argumento",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se alguém lhe oferece uma carona de motocicleta, mas só tem um capacete de segurança:",
-					"Answers": [{
-					"Title": "Se for a única forma de você se locomover até onde precisa, vai assim mesmo, sem capacete",
-					"Score": 1
-					},
-					{
-					"Title": "Aceita a carona, mas apenas porque o condutor decidiu ficar desprotegido e lhe ofereceu o único capacete disponível",
-					"Score": 0.5
-					},
-					{
-					"Title": "Mesmo que seja a única forma de locomoção, recusa a carona",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando um amigo lhe pede carona em seu automóvel, para ele e o filho, menor de sete anos, e você não possui o dispositivo de segurança adequado à idade da criança:",
-					"Answers": [{
-					"Title": "Leva assim mesmo, por conta da amizade, sem comentar sobre o assunto",
-					"Score": 1
-					},
-					{
-					"Title": "Explica para o amigo que não pode levar a criança, por não possuir o dispositivo de segurança, mas realiza o transporte, frente à insistência dele",
-					"Score": 0.5
-					},
-					{
-					"Title": "Recusa terminantemente a realizar o transporte inseguro e explica que a sua decisão procura salvaguardar a vida do filho dele",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está de carona e o motorista ingeriu bebida alcoólica (independente da quantidade):",
-					"Answers": [{
-					"Title": "Vai embora com ele assim mesmo, pois confia na direção dele",
-					"Score": 1
-					},
-					{
-					"Title": "Explica ao motorista sua preocupação e chama um táxi para você ir embora, permitindo que ele dirija sozinho",
-					"Score": 0.5
-					},
-					{
-					"Title": "Procura convencê-lo a passar a direção para alguém que não tenha bebido ou, então, a deixar o veículo em um estacionamento",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você liga para o celular de alguém e a pessoa diz que está dirigindo:",
-					"Answers": [{
-					"Title": "Continua falando normalmente",
-					"Score": 1
-					},
-					{
-					"Title": "Diz que não quer atrapalhar e, portanto, vai falar rapidinho",
-					"Score": 0.5
-					},
-					{
-					"Title": "Diz que liga depois ou, se for muito importante, pede para a pessoa estacionar para conversar com você",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando você está andando, na calçada, com outra pessoa e ela decide atravessar a rua fora da faixa de pedestres:",
-					"Answers": [{
-					"Title": "Atravessa junto com ela, fora da faixa",
-					"Score": 1
-					},
-					{
-					"Title": "Deixa-a atravessar e continua, sozinho, até a faixa",
-					"Score": 0.5
-					},
-					{
-					"Title": "Explica o perigo de seu comportamento e procura convencê-la a atravessar na faixa",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Quando está em um automóvel (independente se na condição de motorista ou passageiro) e alguém não coloca o cinto de segurança (inclusive no banco traseiro):",
-					"Answers": [{
-					"Title": "Fica quieto, pois já está fazendo a sua parte, utilizando o seu cinto de segurança",
-					"Score": 1
-					},
-					{
-					"Title": "Informa à pessoa a necessidade de utilização do cinto e deixa a critério dela a escolha",
-					"Score": 0.5
-					},
-					{
-					"Title": "Sendo você o motorista, não segue a marcha com o veículo, se a pessoa não colocar o cinto de segurança e, sendo você um dos passageiros, exige a utilização pela outra pessoa, dizendo que vai descer do automóvel, caso não atenda ao seu pedido",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se você é passageiro e o motorista é imprudente, atendendo ao telefone celular, assistindo a um aparelho de DVD ou prestes a cometer qualquer infração de trânsito:",
-					"Answers": [{
-					"Title": "Sente-se incomodado com o comportamento dele, mas prefere não falar nada (embora o risco lhe seja igualmente potencial)",
-					"Score": 1
-					},
-					{
-					"Title": "Deixa que ele continue no comportamento infracional e, na primeira oportunidade que tiver, comenta sobre o fato",
-					"Score": 0.5
-					},
-					{
-					"Title": "Procura impedir, prontamente, que o motorista adote o comportamento inseguro, alertando que ele está colocando a vida de todos os ocupantes do veículo em risco",
-					"Score": 0
-					}
-					]
-					},
-					{
-					"Title": "Se você está em uma excursão e o ônibus utilizado para levar o grupo a um passeio estiver em fila dupla:",
-					"Answers": [{
-					"Title": "Entra assim mesmo no ônibus; afinal de contas, quem está cometendo a infração de trânsito é o motorista e não você",
-					"Score": 1
-					},
-					{
-					"Title": "Comenta com os outros sobre o cometimento da infração e/ou chama a atenção do motorista, mas entra no ônibus",
-					"Score": 0.5
-					},
-					{
-					"Title": "Conversa com o motorista, para tentar persuadi-lo a parar em local correto, ainda que mais distante e, na impossibilidade de convencimento, decide não entrar no ônibus e vai de táxi ao local de encontro do grupo",
-					"Score": 0
-					}
-					]
-					}
-					]
-					}
-				</script>
-			</span>
+			</div>
 		</div>
 	</div>
 </section>
+
+
+<section class="section">
+	<div class="container">
+		<h2>3.3.2 - Flipster 3D</h2>
+		<div class="row flipster_carousel_slider">
+			<div class="col-12 no-overflow">
+				<div class="flipster_carousel_slides align-items-center">
+					<div class="flipster_carousel-set flipster_carousel-head align-items-center" order="0" style="z-index: 4">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="1">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="2">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_10.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="3">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_11.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="4">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_12.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-ce6nter flip-left" order="5">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_13.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="6">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_14.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="7">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_15.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+					<div class="flipster_carousel-set align-items-center flip-left" order="8">
+						<div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_16.jpg) center no-repeat; background-size: 100% 100%;"></div>
+					</div>
+				 </div>
+			 </div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2>3.4 - Flip Card</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="flip-card-container">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front" style="height: 300px; width: 100%;">
+								<img src="assets/images/module_1/stock/imagem_17.jpg">
+							</div>
+							<div class="flip-card-back" style="height: 300px; vertical-align: middle;">
+								<h1>Matteo</h1>
+								<p>Pellentesque tempus quam nisi</p>
+								<p>Aenean commodo</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="flip-card-container">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front" style="height: 300px; width: 100%;">
+								<img src="assets/images/module_1/stock/imagem_18.jpg">
+							</div>
+							<div class="flip-card-back" style="height: 300px">
+								<h1>Matteo</h1>
+								<p>Lorem ipsum dolor</p>
+								<p>consectetur adipiscing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="flip-card-container">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front" style="height: 300px; width: 100%;">
+								<img src="assets/images/module_1/stock/imagem_19.jpg">
+							</div>
+							<div class="flip-card-back" style="height: 300px">
+								<h1>Matteo</h1>
+								<p>Aenean commodo</p>
+								<p>Vivamus sapien dui</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container">
+  <div class="row">
+	<div class="col-12">
+	  <h2>3.6 - Progress Bar</h2>
+	  <div class="row">
+		<div class="col">
+		  <div class="progress-bar-container">
+			<div class="progress">
+			  <div
+				class="progress-bar"
+				role="progressbar"
+				style="width: 0%;"
+				aria-valuenow="0"
+				aria-valuemin="0"
+				aria-valuemax="100"
+			  ></div>
+			</div>
+			<div class="text-area mt-3">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9 my-auto">
+				  <div class="text-item">
+					<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor</p>
+				  </div>
+
+				  <div class="text-item not-active">
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum</p>
+				  </div>
+
+				  <div class="text-item not-active">
+					<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et </p>
+				  </div>
+
+				  <div class="text-item not-active">
+					<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et</p>
+				  </div>
+				</div>
+				<div class="col-3 mx-auto p-3">
+				  <img
+					class="progress-bar-illustration"
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\10.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+			<div class="button-panel">
+			  <div class="progress-bar-button-wrapper">
+				<button class="radial-bt progress-prev pointer">
+				  <i class="fa fa-arrow-left"></i>
+				</button>
+				<button class="radial-bt progress-next pointer">
+				  <i class="fa fa-arrow-right"></i>
+				</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+<section class="container">
+  <div class="row">
+	<div class="col-12">
+	  <h2>3.7 - Accordion</h2>
+	  <div class="accordion" id="first_accordion">
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_1"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_1"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_1"
+		  >
+			<h5 class="mb-0">Lorem ipsum dolor sit amet</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_1"
+			class="collapse"
+			aria-labelledby="first_accordion_head_1"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
+				  <p> ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+				  <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus</p>
+
+				  <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.</p>
+				  <p> Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue.</p>
+				</div>
+
+				<div class="col-5 col-md-3 mx-auto p-4">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\01.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_2"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_2"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_2"
+		  >
+			<h5 class="mb-0">Etiam posuere quam ac quam. Maecenas</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_2"
+			class="collapse"
+			aria-labelledby="first_accordion_head_2"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat. Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.</p>
+
+				  <p> Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.
+				  </p>
+
+				  <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus.</p>
+
+				  <p> In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu, urna. Nullam at arcu a est sollicitudin euismod. Praesent dapibus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero,</p>
+				</div>
+
+				<div class="col-5 col-md-3 mx-auto p-3">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\02.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_3"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_3"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_3"
+		  >
+			<h5 class="mb-0">In sem justo, commodo ut</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_3"
+			class="collapse"
+			aria-labelledby="first_accordion_head_3"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</p>
+
+				  <p> Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.</p>
+
+				  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl. Sed convallis magna eu sem. Cras pede libero, dapibus nec, pretium sit amet, tempor quis, urna.</p>
+
+			   
+				</div>
+				<div class="col-5 col-md-3 mx-auto p-3">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\03.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_4"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_4"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_4"
+		  >
+			<h5 class="mb-0">Praesent in mauris eu tortor</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_4"
+			class="collapse"
+			aria-labelledby="first_accordion_head_4"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.</p>
+				</div>
+				<div class="col-5 col-md-3 mx-auto p-3">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\04.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_5"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_5"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_5"
+		  >
+			<h5 class="mb-0">Etiam posuere quam ac</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_5"
+			class="collapse"
+			aria-labelledby="first_accordion_head_5"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non,</p>
+				</div>
+				<div class="col-5 col-md-3 mx-auto p-3">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\05.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div
+			class="card-header pointer collapsed"
+			id="first_accordion_head_6"
+			data-toggle="collapse"
+			data-target="#first_accordion_collapse_6"
+			aria-expanded="true"
+			aria-controls="first_accordion_collapse_6"
+		  >
+			<h5 class="mb-0">Morbi leo mi, nonummy ege</h5>
+		  </div>
+		  <div
+			id="first_accordion_collapse_6"
+			class="collapse"
+			aria-labelledby="first_accordion_head_6"
+			data-parent="#first_accordion"
+		  >
+			<div class="card-body">
+			  <div class="row flex-column-reverse flex-md-row">
+				<div class="col-md-9">
+				  <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante</p>
+				</div>
+				<div class="col-5 col-md-3 mx-auto p-3">
+				  <img
+					src="assets\images\module_1\ilustracoes_modulo1\SVG\06.svg"
+				  />
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</section>
+
+
+

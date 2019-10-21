@@ -219,9 +219,17 @@ label {
 .bg-secondary{
     background: #ef7628 !important;
 }
+
+.bg-orange{
+    background: #ef7628 !important;
+}
 .color-white{
     color:white;
 }
+
+.bg-gray{
+    background: #c2c2c2;
+  }
 
 .card{
     height: 100%;

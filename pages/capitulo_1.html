@@ -1,728 +1,889 @@
-    <div class="container col-4 mx-auto">
-        <p>
-            Identidade:
-            <select id="module_selector" class="w-100" onchange="change_module()">
-                <option value="1">Módulo 1</option>
-                <option value="2">Módulo 2</option>
-                <option value="3">Módulo 3</option>
-                <option value="4">Módulo 4</option>
-            </select>
-        </p>
+
+
+
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>1. Grid em container fixo</h2>
+          <p>
+            Um <i>grid</i> é um sistema de colunas e linhas desenvolvidos para organizar os conteúdos <i>on-line</i>. No caso deste <i>framework</i> (Bootstrap), cada linha do <i>grid</i> tem no máximo 12 colunas e assim os elementos (textos, imagens e outros recursos) podem ser distribuídos numa linha com soma menor ou igual a 12. Veja um exemplo a seguir. Outrossim, o <i>grid</i> é extremamente importante para o êxito da exibição dos conteúdos nos diversos tamanhos de telas dos dispositivos.
+          </p>
+  
+          <p><strong>Observação</strong>: para efeito de entendimentos ao longo dos textos a seguir, a palavra <i>grid</i> seguida de um número (<i>grid</i> <b>n</b>) significa que a coluna é um container que ocupa <b>n</b> colunas do grid principal de 12 colunas.</p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col"><h5>Exemplo de <i>grid</i> 12 com conteúdos distribuídos em quantidades de colunas iguais</h5></div>
+      </div>
+  
+      <div class="row">
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+        <div class="col-1"><p class="bg-gray text-center"><i>grid</i> 1</p></div>
+      </div>
+      <div class="row">
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>
+        <div class="col-2"><p class="bg-gray text-center"><i>grid</i> 2</p></div>	
+      </div>
+      <div class="row">
+        <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+        <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+        <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+        <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+      </div>
+      <div class="row">
+        <div class="col-4"><p class="bg-gray text-center"><i>grid</i> 4</p></div>
+        <div class="col-4"><p class="bg-gray text-center"><i>grid</i> 4</p></div>
+        <div class="col-4"><p class="bg-gray text-center"><i>grid</i> 4</p></div>
+      </div>
+      <div class="row">
+        <div class="col-6"><p class="bg-gray text-center"><i>grid</i> 6</p></div>
+        <div class="col-6"><p class="bg-gray text-center"><i>grid</i> 6</p></div>
+      </div>
+      <div class="row">
+        <div class="col-12"><p class="bg-gray text-center"><i>grid</i> 12</p></div>
+      </div>
+  
+  
+  
+      <div class="row">
+          <div class="col"><h5>Exemplo de <i>grid</i> 12 com conteúdos distribuídos em quantidades de colunas desiguais</h5></div>
+        </div>
+    
+  
+        <div class="row">
+          <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+          <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+          <div class="col-6"><p class="bg-gray text-center"><i>grid</i> 6</p></div>	
+        </div>
+        <div class="row">
+            <div class="col-5"><p class="bg-gray text-center"><i>grid</i> 5</p></div>
+            <div class="col-7"><p class="bg-gray text-center"><i>grid</i> 7</p></div>	
+          </div>
+        <div class="row">
+          <div class="col-9"><p class="bg-gray text-center"><i>grid</i> 9</p></div>
+          <div class="col-3"><p class="bg-gray text-center"><i>grid</i> 3</p></div>
+        </div>
+  
+    
+      
+  
+  
+      <div class="row">
+        <div class="col">
+          <p>
+            No container fixo os conteúdos não ocupam toda a largura do viewport (área total da janela do navegador), são deixados espaços nas margeens			esquerda e direita.
+          </p>
+  
+          <p>Observação: <strong>todas as imagens devem ter a resolução de 72 dpi.</strong></p>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+      <div class="row">
+        <div class="col">
+          <h2>1.1 <i>Grid</i> com 1 coluna <i>grid</i> 12</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>
+            O <i>grid</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            elementum justo orci, quis condimentum lacus porta vel. In finibus
+            malesuada ornare. Suspendisse varius accumsan lorem, ac bibendum arcu
+            semper quis. Nunc vulputate vehicula rhoncus. Vivamus fermentum
+            eleifend urna in rhoncus. Phasellus venenatis vehicula turpis, aliquam
+            feugiat diam vehicula nec. Mauris euismod vel mauris a sagittis.
+            Vestibulum volutpat, ipsum at consequat volutpat, purus lorem aliquam
+            purus, eget lacinia nunc magna et felis. Nam non suscipit mauris.
+            Etiam in auctor mi. Aliquam ac purus nec nisi tempus vehicula nec nec
+            tellus. Vivamus sit amet nulla ante. Phasellus consectetur lectus
+            ipsum, id tristique sapien ultrices at. In egestas interdum mi dapibus
+            tempor.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <h3>
+            1.1.1 <i>Grid</i> com 1 coluna com imagem, a largura da imagem deve
+            ser 1110 pixels (px)
+          </h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid" src="assets/img/imagem_01.jpg" data-aos="fade-up"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="mt-5">1.2 <i>Grid</i> com 2 colunas</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            elementum justo orci, quis condimentum lacus porta vel. In finibus
+            malesuada ornare. Suspendisse varius accumsan lorem, ac bibendum arcu
+            semper quis. Nunc vulputate vehicula rhoncus. Vivamus fermentum
+            eleifend urna in rhoncus. Phasellus venenatis vehicula turpis, aliquam
+            feugiat diam vehicula nec. Mauris euismod vel mauris a sagittis.
+            Vestibulum volutpat, ipsum at consequat volutpat, purus lorem aliquam
+            purus, eget lacinia nunc magna et felis. Nam non suscipit mauris.
+            Etiam in auctor mi. Aliquam ac purus nec nisi tempus vehicula nec nec
+            tellus. Vivamus sit amet nulla ante. Phasellus consectetur lectus
+            ipsum, id tristique sapien ultrices at. In egestas interdum mi dapibus
+            tempor.
+          </p>
+        </div>
+        <div class="col-md">
+          <p>
+            Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+            Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+            augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+            augue fringilla eleifend. Proin massa lectus, placerat vel sodales
+            vel, efficitur et ante. Nam ante urna, dictum ac luctus at, auctor a
+            lorem. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+            porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+            quam. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Sed quis congue sem. Nam ac libero vel
+            leo pretium rhoncus at euismod lorem. Ut molestie nisi a libero mollis
+            convallis.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <h3>
+            1.2.1 <i>Grid</i> com 2 colunas, uma com imagem, sendo que a lagura das
+            imagens distribuídas em 2 colunas deve ser de 692 px
+          </h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg">
+          <img class="img-fluid mb-4" src="assets/img/imagem_02.jpg"  />
+        </div>
+        <div class="col-lg">
+          <p>
+            Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+            Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+            augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+            augue fringilla eleifend. Proin massa lectus, placerat vel sodales
+            vel, efficitur et ante. Nam ante urna, dictum ac luctus at, auctor a
+            lorem. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+            porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+            quam. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Sed quis congue sem. Nam ac libero vel
+            leo pretium rhoncus at euismod lorem. Ut molestie nisi a libero mollis
+            convallis.
+          </p>
+          <p>
+            Donec vel tellus id lacus lobortis efficitur ut sed neque. Nullam
+            convallis nunc id mauris pellentesque, vulputate finibus lectus
+            varius. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+            porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+            quam. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+  
+  
+      <div class="row">
+        <div class="col">
+          <h3 class="mt-4">
+            1.2.2 <i>Grid</i> com 2 colunas de larguras iguais, com iomagens de ilusttrações pequenas na largura e centralizadas nas colunas 
+          </h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-sm-6">
+            <img
+            class="mb-4 d-block mx-auto"	src="assets/img/officer1.png"
+          />			
+          
+          <p class="text-center">Aliquam auctor ultrices.</p>
+  
+        </div>	
+        <div class="col-sm-6">
+          <img
+            class="mb-4 d-block mx-auto"	src="assets/img/officer1.png"
+          />			
+          <p class="text-center">Sed nec iaculis felis.</p>
+        </div>
+      </div>
+  
+  
+  
+  
+   
+  
+  
+  
+      <div class="row">
+        <div class="col">
+          <h3 class="mt-4">
+            1.2.3 <i>Grid</i> com 2 colunas, <i>grid</i> 7 para texto e grid 5 para imagem quadrada com css circular (rounded-circle)
+          </h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg-7">
+          <p>
+            Aliquam auctor ultrices orci, in hendrerit ex sagittis at. In
+            pellentesque metus justo, et pulvinar mi imperdiet sit amet. Etiam
+            porta ultricies mattis. Nullam scelerisque id arcu sed suscipit. In
+            sed vestibulum tortor. Curabitur accumsan suscipit dui, et rutrum orci
+            tristique vel. Nullam a faucibus metus. Maecenas sed placerat tortor,
+            quis aliquam nibh.
+          </p>
+  
+          <p>
+            Mauris et sem magna. Suspendisse potenti. Nulla fermentum volutpat
+            euismod. Donec sapien ipsum, tempus sed tincidunt ut, ullamcorper id
+            turpis.
+          </p>
+          <p>
+            Nam felis est, dapibus non elit mattis, congue pellentesque mi. Ut
+            placerat mi eu ligula mollis aliquet. Nulla facilisi. Maecenas ac eros
+            arcu.
+          </p>
+         
+        </div>
+        <div class="col-lg-5">
+          <img
+            class="img-fluid rounded-circle mb-4"
+            src="assets/img/imagem_03.jpg"
+          />
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <h3 class="mt-4">
+            1.2.4 <i>Grid</i> com 2 colunas, <i>grid</i> 8 para o texto e outra coluna com uma ilustração de largura estreita (<i>grid</i> 4)
+          </h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="mb-4 d-block mx-auto"  style="border:1px dashed #f1f1f1" src="assets/img/officer2.png" style="border:1px dashed grey" />
+        </div>
+        <div class="col-lg-8">
+          <p>
+            Aliquam auctor ultrices orci, in hendrerit ex sagittis at. In
+            pellentesque metus justo, et pulvinar mi imperdiet sit amet. Etiam
+            porta ultricies mattis. Nullam scelerisque id arcu sed suscipit. In
+            sed vestibulum tortor. Curabitur accumsan suscipit dui, et rutrum orci
+            tristique vel. Nullam a faucibus metus. Maecenas sed placerat tortor,
+            quis aliquam nibh.
+          </p>
+          <p>Proin luctus lorem facilisis aliquet molestie. Phasellus purus felis, gravida non laoreet ut, dictum consectetur enim. Sed egestas eu enim eget dignissim. Pellentesque rutrum convallis augue at gravida. Pellentesque quis ante arcu. Donec pretium purus quis vestibulum dignissim. Proin convallis purus lectus, sit amet iaculis est euismod ut. Vestibulum porttitor turpis a nulla hendrerit posuere. Integer dapibus, mauris et laoreet convallis, arcu mauris rutrum lectus, nec porta mauris nibh ac ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. In gravida nibh ac lacus fermentum ornare. Nullam volutpat ligula et enim scelerisque fermentum. Maecenas sit amet sapien at dolor gravida semper. Morbi aliquam, nulla non efficitur gravida, ipsum lacus volutpat eros, ut rhoncus odio odio suscipit ligula.</p>
+          
+        </div>
+      </div>
+  
+  
+  
+  
+      <div class="row">
+        <div class="col">
+          <h3 class="mt-4">
+            1.2.5 <i>Grid</i> 8 contendo duas colunas <i>grid</i> 6 cada
+          </h3>
+        </div>
+      </div>
+    
+      
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="mb-4 d-block mx-auto" src="assets/img/policial-p.png" style="border:1px dashed #f1f1f1"/>
+          </div>
+          <div class="col-lg-6" style="border:1px dashed #f1f1f1">
+            <p>
+              Aliquam auctor ultrices orci, in hendrerit ex sagittis at. In
+              pellentesque metus justo, et pulvinar mi imperdiet sit amet. Etiam
+              porta ultricies mattis. Nullam scelerisque id arcu sed suscipit. In
+              sed vestibulum tortor. Curabitur accumsan suscipit dui, et rutrum orci
+              tristique vel. 
+            </p>
+            <ul class="lista">
+              <li>Mauris et sem magna. </li>
+              <li>Suspendisse potenti.</li>
+              <li>Nulla fermentum volutpat</li>
+              <li>Donec sapien ipsum.</li>
+                  
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>1.3 <i>Grid</i> com 3 colunas, cada coluna <i>grid</i> 4</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              elementum justo orci, quis condimentum lacus porta vel. In finibus
+              malesuada ornare. Suspendisse varius accumsan lorem, ac bibendum arcu
+              semper quis. Nunc vulputate vehicula rhoncus. Vivamus fermentum
+              eleifend urna in rhoncus. Phasellus venenatis vehicula turpis, aliquam
+              feugiat diam vehicula nec. Mauris euismod vel mauris a sagittis.
+              Vestibulum volutpat, ipsum at consequat volutpat, purus lorem aliquam
+              purus, eget lacinia nunc magna et felis. Nam non suscipit mauris.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+              augue fringilla eleifend. Proin massa lectus, placerat vel sodales
+              vel, efficitur et ante. Nam ante urna, dictum ac luctus at, auctor a
+              lorem. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+              porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+              quam.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Donec vel tellus id lacus lobortis efficitur ut sed neque. Nullam
+              convallis nunc id mauris pellentesque, vulputate finibus lectus
+              varius. Etiam vel urna et nulla vehicula dignissim eget rutrum lorem.
+              Pellentesque pretium non urna id dignissim. Pellentesque lobortis
+              semper luctus. Nulla facilisi. Donec quis semper libero. Suspendisse
+              commodo lectus et augue laoreet facilisis. Aenean faucibus neque at
+              felis faucibus, quis pharetra magna accumsan. Duis at ipsum finibus,
+              pharetra lectus ac, euismod augue. Morbi sed diam ligula.
+            </p>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col">
+            <h3>
+              1.3.1 <i>Grid</i> com 3 colunas
+            </h3>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="img-fluid mb-4" src="assets/img/imagem_04.jpg" />
+          </div>
+    
+          <div class="col-lg-4">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+              augue fringilla eleifend.
+            </p>
+            <p>
+              Donec vel tellus id lacus lobortis efficitur ut sed neque. Nullam
+              convallis nunc id mauris pellentesque.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              Cras eros orci, varius at malesuada quis, interdum et justo. Integer
+              lacinia mattis quam nec consequat. Integer non metus sit amet magna
+              vulputate bibendum sit amet at quam. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+              aliquet augue nulla, cursus posuere ante faucibus at. Mauris consequat
+              feugiat urna vel facilisis. Phasellus sodales mi ullamcorper nisi
+              tincidunt.
+            </p>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>
+              1.3.2 <i>Grid</i> com 3 colunas, 2 textos em <i>grid</i> 5 e imagem em <i>grid</i> 2 
+            </h3>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-5">
+            <p>
+              Aliquam auctor ultrices orci, in hendrerit ex sagittis at. In
+              pellentesque metus justo, et pulvinar mi imperdiet sit amet. Etiam
+              porta ultricies mattis. Nullam scelerisque id arcu sed suscipit. In
+              sed vestibulum tortor. Curabitur accumsan suscipit dui, et rutrum orci
+              tristique vel. Nullam a faucibus metus. Maecenas sed placerat tortor,
+              quis aliquam nibh.
+            </p>
+            
+          </div>
+          <div class="col-md-5">
+            <p>
+              Nam felis est, dapibus non elit mattis, congue pellentesque mi. Ut
+              placerat mi eu ligula mollis aliquet. Nulla facilisi. Maecenas ac eros
+              arcu. Sed nec iaculis felis, quis maximus massa. Proin vitae augue
+              aliquet, faucibus purus at, maximus turpis. Integer quis lectus
+              scelerisque, ellentesque turpis non, scelerisque nisl.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <img
+              class="img-fluid rounded-circle mb-4"
+              src="assets/img/imagem_06.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>1.4 <i>Grid</i> com 4 colunas</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              elementum justo orci, quis condimentum lacus porta vel. In finibus
+              malesuada ornare. Suspendisse varius accumsan lorem, ac bibendum arcu
+              semper quis. Nunc vulputate vehicula rhoncus. Vivamus fermentum
+              eleifend urna in rhoncus. Phasellus venenatis vehicula turpis, aliquam
+              feugiat diam vehicula nec. Mauris euismod vel mauris a sagittis.
+              Vestibulum volutpat, ipsum at consequat volutpat, purus lorem aliquam
+              purus, eget lacinia nunc magna et felis. Nam non suscipit mauris.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+              augue fringilla eleifend. Proin massa lectus, placerat vel sodales
+              vel, efficitur et ante. Nam ante urna, dictum ac luctus at, auctor a
+              lorem. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+              porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+              quam.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Donec vel tellus id lacus lobortis efficitur ut sed neque. Nullam
+              convallis nunc id mauris pellentesque, vulputate finibus lectus
+              varius. Etiam vel urna et nulla vehicula dignissim eget rutrum lorem.
+              Pellentesque pretium non urna id dignissim. Pellentesque lobortis
+              semper luctus. Nulla facilisi. Donec quis semper libero. Suspendisse
+              commodo lectus et augue laoreet facilisis. Aenean faucibus neque at
+              felis faucibus, quis pharetra magna accumsan. Duis at ipsum finibus,
+              pharetra lectus ac, euismod augue. Morbi sed diam ligula.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+              augue fringilla eleifend. Proin massa lectus, placerat vel sodales
+              vel, efficitur et ante. Nam ante urna, dictum ac luctus at, auctor a
+              lorem. Vestibulum quis pulvinar urna. Donec congue, tellus vel rutrum
+              porttitor, lacus augue facilisis lectus, sed commodo velit est eu
+              quam.
+            </p>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col">
+            <h3 class="mt-4">
+              1.4.1 <i>Grid</i> com 4 colunas <i>grid </i> 3 com imagens e textos
+            </h3>
+          </div>
+        </div>
+    
+    
+        <div class="row">
+          <div class="col-md">
+            <img class="img-fluid mb-4" src="assets/img/imagem_07.jpg" />
+          </div>
+          <div class="col-md">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. Nam porttitor ante sollicitudin
+              augue fringilla eleifend. Donec congue, tellus vel rutrum porttitor.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Nam felis est, dapibus non elit mattis, congue pellentesque mi. Ut placerat mi eu ligula mollis aliquet. Nulla facilisi. Maecenas ac eros arcu. Sed nec iaculis felis, quis maximus massa. Proin vitae augue aliquet, faucibus purus at, maximus turpis. Integer quis lectus scelerisque, ellentesque turpis non, scelerisque nisl.
+            </p>
+          </div>
+          <div class="col-md">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum justo orci, quis condimentum lacus porta vel. In finibus malesuada ornare.</p>
+            <p>Duis at ipsum finibus, pharetra lectus ac, euismod augue. Morbi sed diam ligula.
+            </p>
+          </div>
+        
+        </div>
+    
+    
+    
+    
+    
+    
+        <div class="row">
+          <div class="col">
+            <h3 class="mt-4">
+              1.4.2 <i>Grid</i> com 4 colunas, com imagens circulares
+            </h3>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md">
+            <p>
+              Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis.
+              Pellentesque id ullamcorper eros. Suspendisse potenti. Integer luctus
+              augue sit amet sollicitudin aliquam. 
+            </p>
+          </div>
+          <div class="col-md">
+            <img
+              class="img-fluid rounded-circle mb-4"
+              src="assets/img/imagem_08.jpg"
+            />
+          </div>
+          <div class="col-md">
+            <p>
+              Cras eros orci, varius at malesuada quis, interdum et justo. Integer
+              lacinia mattis quam nec consequat. Integer non metus sit amet magna
+              vulputate bibendum sit amet at quam. Pellentesque habitant morbi
+            </p>
+          </div>
+          <div class="col-md">
+            <img
+              class="img-fluid rounded-circle mb-4"
+              src="assets/img/imagem_09.jpg"
+            />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col">
+            <h3 class="mt-4">
+              1.4.3 <i>Grid</i> com 4 colunas com cards
+            </h3>
+          </div>
+        </div>
+    
+        <div class="row row-eq-height">
+          <div class="col-md-3 col-sm-6 mb-2">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/imagem_10.jpg"
+                alt="Card image"
+                style="width:100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tagliateli Funghi</h4>
+                <p class="card-text">
+                  Some example text about Matteo. He is our baby mascot of course.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-2">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/imagem_11.jpg"
+                alt="Card image"
+                style="width:100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tagliateli Verdi</h4>
+                <p class="card-text">
+                  Some example text about Matteo. He is our baby mascot of course.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-2">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/imagem_12.jpg"
+                alt="Card image"
+                style="width:100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Penne</h4>
+                <p class="card-text">
+                  Some example text about Matteo. He is our baby mascot of course.
+                </p>
+                <div style="text-align: center;">
+                  <!-- <a
+                    target="_self"
+                    class="btn btn-primary stretched-link mx-auto"
+                    id="btnModal1"
+                    >See Profile in Modal</a
+                  > -->
+    
+    
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    Open modal
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading <section class="section">
+            <div class="container">
+              <div class="row jesus_slider_ball">
+                <div class="col-12 no-overflow">
+                  <div class="jesus_slides">
+                    <div class="jesus-head jesus-set align-items-center active">
+                      <div class="arrow"></div>
+                      <div class="slide_ball">1</div>
+                      <div class="arrow forward_arrow"></div>
+                    </div>
+                    <div class="jesus-set align-items-center">
+                      <div class="arrow back_arrow"></div>
+                      <div class="slide_ball">2</div>
+                      <div class="arrow forward_arrow"></div>
+                    </div>
+                    <div class="jesus-set align-items-center">
+                      <div class="arrow back_arrow"></div>
+                      <div class="slide_ball">3</div>
+                      <div class="arrow forward_arrow"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-3">
+                  <div class="jesus_board">
+                    <div class="text-item active">
+                      <p>TEXT 1</p>
+                    </div>
+                    <div class="text-item">
+                      <p>TEXT 2</p> 
+                    </div>
+                    <div class="text-item">
+                      <p>TEXT 3</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+      
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+      
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      
+        </div>
+      </div>
+      </div>
+    
+    
+    
+    
+    
+    
+          <div class="col-md-3 col-sm-6 mb-2">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/imagem_13.jpg"
+                alt="Card image"
+                style="width:100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Rigatoni</h4>
+                <p class="card-text">
+                  Some example text about Matteo. He is our baby mascot of course.
+                </p>
+                <div style="text-align: center">
+                  <a
+                    id="popOver-1"
+                    target="_self"
+                    data-toggle="popover"
+                    title="Popover Header"
+                    data-content="Some short sample text for the Matteo Popover"
+                    class="btn btn-primary stretched-link mx-auto"
+                    >Veja em Popover</a
+                  >	
+                  <script>
+                    $(document).ready(function(){
+                      $("#popOver-1").click(function() {							  
+                        $('[data-toggle="popover"]').popover(); 
+                      });							  
+                    });	
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="modal-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Título do Modal</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+    
+          <div class="modal-body">
+            <p>
+              Praesent sollicitudin convallis justo vitae mattis. Praesent molestie
+              ante vitae laoreet tincidunt. Nam malesuada augue vitae diam mollis
+              porta. Curabitur in vulputate turpis. Praesent dictum ante sed orci
+              feugiat convallis. In malesuada ultricies lectus nec pretium. Maecenas
+              tincidunt mauris nec diam lobortis sodales. Integer imperdiet gravida
+              efficitur.
+            </p>
+            <p>
+              Donec maximus ac sapien dignissim condimentum. Nullam non augue
+              sodales, sollicitudin nulla et, venenatis tellus. Donec luctus et
+              augue sit amet dignissim.
+            </p>
+          </div>
+    
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     
-
-    <section class='mb-5 py-2 '>
-        
+    <section>
       <div class="container">
-        <h1>COMPONENTES INTERATIVOS</h1>
-      </div>
-    
-    </section>
-    
-    <section class="section">
-      <div class="container">
-        <h2>3.1.1 CAROUSEL SPLIT FRAN</h2>
-        <div class='row align-items-center ventanitas_pin_marker'>
-            <div class='col-xs-12 col-sm-6 col-xs-12 ventanita-box'>
-                <div class="pin-marker"></div>
-                <div class='ventanita-show'>
-                    Fase 1 - Quis autem vel eum
-                </div>
-                <div class='ventanita-show'>
-                    Fase 2 - He slid back into
-                </div>
-                <div class='ventanita-show'>
-                    Fase 3 - Praesent in mauris eu
-                </div>
-                <div class='ventanita-show'>
-                    Fase 4 - Morbi a metus
-                </div>
-            </div>
-            <div col-xs-12 class='col-sm-6 col-xs-12'>
-                <div class='ventanita-caract' id="ventanita-objects">
-                    <p class='text-center ventana active' id='ventanita-placeholder'>
-                        <span class='d-none d-sm-block d-xs-block'>Clique nos botões ao lado.</span>
-                        <span class='d-block d-sm-none d-xs-none'>Clique nos botões acima.</span>
-                    </p>
-                    <p class="ventana">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce nibh. Duis risus. Curabitur sagittis hendrerit ante. Aliquam erat volutpat. Vestibulum erat nulla, ullamcorper</p>
-
-                    <p class="ventana">In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum</p>
-
-                    <p class="ventana">Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Integer vulputate sem a nibh rutrum consequat. Maecenas lorem. Pellentesque pretium lectus id turpis. Etiam sapien elit, consequat eget, tristique</p>
-
-                    <p class="ventana">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
-
-                </div>
-
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2>3.1.2 CAROUSEL SPLIT MENU TEXT</h2>
-        <div class="row row-eq-height align-items-center split_carousel_pin_marker">
-            <div class="col-12 col-sm-6">
-                <div class="pin-marker"></div>
-                <div class="row">
-                    <div class="col-lg-4 offset-lg-2 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="0">Anim pariatur cliche</button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="1">Cras eros orci</button>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-lg-4 offset-lg-2 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="2">Aliquam lectus</button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="3">Aliquam nisl</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6">
-                <div class="split_text_box">
-                    <div class="text-item">
-                        <p>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                            quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-                            squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-                            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                            nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>
-                            Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam
-                            nec consequat. Integer non metus sit amet magna vulputate bibendum sit amet at quam.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                            egestas.
-                        </p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>
-                            Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
-                            ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
-                            aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
-                            laoreet dapibus nunc non, ornare congue augue.
-                        </p>
-                    </div>
-                    <div class="text-item not-active">
-                        <p>
-                            Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
-                            ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
-                            aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
-                            laoreet dapibus nunc non, ornare congue augue.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2>3.1.3 CAROUSEL SPLIT MENU IMAGE</h2>
-        <div class="row row-eq-height align-items-center split_carousel_img">
-            <div class="col-12 col-sm-6">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="0" style="background:url(assets/images/module_1/stock/imagem_07.jpg) center no-repeat; background-size:100% 100%"></button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="1" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center; background-size:100%"></button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="2" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size:100% 100%"></button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="3" style="background:url(assets/images/module_1/stock/imagem_04.jpg) center no-repeat; background-size:100% 100%"></button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="4" style="background:url(assets/images/module_1/stock/imagem_05.jpg) center no-repeat; background-size:100% 100%"></button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-4">
-                        <button class="split_button" target-index="5" style="background:url(assets/images/module_1/stock/imagem_06.jpg) center no-repeat; background-size:100% 100%"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6">
-                <div class="split_text_box">
-                    <div class="text-item">
-                        <p>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
-                            quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-                            squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-                            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-                            nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>
-                            Cras eros orci, varius at malesuada quis, interdum et justo. Integer lacinia mattis quam
-                            nec consequat. Integer non metus sit amet magna vulputate bibendum sit amet at quam.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                            egestas.
-                        </p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>
-                            Aliquam nisl lectus, viverra eget tincidunt vel, ultrices ac turpis. Pellentesque id
-                            ullamcorper eros. Suspendisse potenti. Integer luctus augue sit amet sollicitudin
-                            aliquam. Nam porttitor ante sollicitudin augue fringilla eleifend. Maecenas tortor sem,
-                            laoreet dapibus nunc non, ornare congue augue.
-                        </p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis felis, egestas et iaculis eu, euismod quis lorem. Sed hendrerit tempus ipsum non cursus. Cras lacus diam, consequat nec egestas vel, vehicula vitae eros. Proin volutpat orci velit, non ornare arcu blandit ac. Sed aliquet ex massa, auctor malesuada sem faucibus et. Etiam ultricies, tortor nec euismod pharetra, leo diam faucibus mi, mattis sollicitudin tellus velit ac sem. Vivamus in neque vehicula, sagittis purus a, volutpat metus.</p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>Morbi porta mauris lacus, ut rhoncus diam vestibulum id. Aliquam erat volutpat. Curabitur felis sapien, faucibus vel fermentum faucibus, venenatis at risus. Aenean rhoncus maximus suscipit.</p>
-                        <p>Nam sit amet mi eros. In quis tempus ex. Donec hendrerit sit amet mi eget porttitor. Aenean nec orci dapibus lectus vulputate facilisis at ut mi. Nullam efficitur ultricies tincidunt. In non augue tortor.</p>
-                    </div>
-
-                    <div class="text-item not-active">
-                        <p>Donec nisl magna, vehicula eu lorem ac, auctor cursus nunc. Ut vitae consectetur ipsum, vitae aliquet urna. Sed eu velit ornare metus fringilla eleifend. Duis tincidunt turpis a cursus rutrum. Donec euismod nulla ex, vel facilisis lectus molestie et.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
-  
-
-
-
-    <section class="section">
-      <div class="container">
-        <h2>3.2 Carousel-Slider (new)</h2>
         <div class="row">
-            <div class="col-12">
-                <div id="IdentifierCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#IdentifierCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#IdentifierCarousel" data-slide-to="1"></li>
-                        <li data-target="#IdentifierCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="assets\images\module_1\stock\imagem_01.jpg" alt="First slide">
-                            <p style="text-align: center;">PODE TER TEXTO TAMBÉM</p>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="assets\images\module_1\stock\imagem_02.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="assets\images\module_1\stock\imagem_03.jpg" alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#IdentifierCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#IdentifierCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2>3.2.6 - Jesus Slider Botão Imagem</h2>
-        <div class="row jesus_slider_no_arrow_image_background">
-          <div class="col-10 mx-auto no-overflow">
-            <div class="jesus_slides">
-              <div class="jesus-head jesus-set align-items-center active">
-                <div class="slide_ball">I</div>
-              </div>
-              <div class="jesus-set align-items-center">
-                <div class="slide_ball">II</div>
-              </div>
-              <div class="jesus-set align-items-center">
-                <div class="slide_ball">III</div>
-              </div>
-              <div class="jesus-set align-items-center">
-                <div class="slide_ball">IV</div>
-              </div>
-              <div class="jesus-set align-items-center">
-                <div class="slide_ball">V</div>
-              </div>
-              <div class="jesus-set align-items-center">
-                <div class="slide_ball">VI</div>
-              </div>
-            </div>
+          <div class="col">
+            <h1 class="mt-5">2. <i>Grid</i> em container fluído</h1>
+            <p>
+              No container fluído os conteúdos ocupam toda a largura do viewport.
+            </p>
           </div>
-          <div class="col-sm-12 col-md-10 mx-auto mt-3">
-            <div class="jesus_board">
-              <div class="text-area">
-                <div class="text-item active">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-10 mx-auto">
-                      <p class="mb-0">Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-10 mx-auto pb-5">
-                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="text-item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-10 mx-auto">
-                    <p class="mb-0">Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus.</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="text-item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-10 mx-auto">
-                    <p class="mb-0">Aenean placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="text-item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-10 mx-auto">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="text-item">
-                <div class="row">
-                  <div class="col-sm-12 col-md-10 mx-auto">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>2.1 <i>Grid</i> com 1 coluna em fundo colorido</h2>
           </div>
         </div>
       </div>
     </section>
     
-
-
-    <section class="section">
+    <section>
+      <div class="container-fluid bg-primary">
         <div class="container">
-            <h2>3.3.1 - Flipster Linear</h2>
-            <div class="row flipster_slider">
-                <div class="col-12 no-overflow">
-                    <div class="flipster_slides align-items-center">
-                        <div class="flipster-set flipster-head align-items-center active" order="0">
-                            <div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster-set align-items-center" order="1">
-                            <div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_05.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-    
-                        <div class="flipster-set align-items-center" order="2">
-                            <div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-    
-                        <div class="flipster-set align-items-center" order="3">
-                            <div class="flipster_slide" style="background:url(assets/images/module_1/stock/imagem_07.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    <section class="section">
-        <div class="container">
-            <h2>3.3.2 - Flipster 3D</h2>
-            <div class="row flipster_carousel_slider">
-                <div class="col-12 no-overflow">
-                    <div class="flipster_carousel_slides align-items-center">
-                        <div class="flipster_carousel-set flipster_carousel-head align-items-center" order="0" style="z-index: 4">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_08.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="1">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_09.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="2">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_10.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="3">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_11.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="4">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_12.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-ce6nter flip-left" order="5">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_13.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="6">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_14.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="7">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_15.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                        <div class="flipster_carousel-set align-items-center flip-left" order="8">
-                            <div class="flipster_carousel_slide" style="background:url(assets/images/module_1/stock/imagem_16.jpg) center no-repeat; background-size: 100% 100%;"></div>
-                        </div>
-                     </div>
-                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2>3.4 - Flip Card</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="flip-card-container">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front" style="height: 300px; width: 100%;">
-                                    <img src="assets/images/module_1/stock/imagem_17.jpg">
-                                </div>
-                                <div class="flip-card-back" style="height: 300px; vertical-align: middle;">
-                                    <h1>Matteo</h1>
-                                    <p>Pellentesque tempus quam nisi</p>
-                                    <p>Aenean commodo</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="flip-card-container">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front" style="height: 300px; width: 100%;">
-                                    <img src="assets/images/module_1/stock/imagem_18.jpg">
-                                </div>
-                                <div class="flip-card-back" style="height: 300px">
-                                    <h1>Matteo</h1>
-                                    <p>Lorem ipsum dolor</p>
-                                    <p>consectetur adipiscing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="flip-card-container">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front" style="height: 300px; width: 100%;">
-                                    <img src="assets/images/module_1/stock/imagem_19.jpg">
-                                </div>
-                                <div class="flip-card-back" style="height: 300px">
-                                    <h1>Matteo</h1>
-                                    <p>Aenean commodo</p>
-                                    <p>Vivamus sapien dui</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>3.6 - Progress Bar</h2>
           <div class="row">
-            <div class="col">
-              <div class="progress-bar-container">
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 0%;"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="text-area mt-3">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9 my-auto">
-                      <div class="text-item">
-                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor</p>
-                      </div>
-    
-                      <div class="text-item not-active">
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum</p>
-                      </div>
-    
-                      <div class="text-item not-active">
-                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et </p>
-                      </div>
-    
-                      <div class="text-item not-active">
-                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et</p>
-                      </div>
-                    </div>
-                    <div class="col-3 mx-auto p-3">
-                      <img
-                        class="progress-bar-illustration"
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\10.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="button-panel">
-                  <div class="progress-bar-button-wrapper">
-                    <button class="radial-bt progress-prev pointer">
-                      <i class="fa fa-arrow-left"></i>
-                    </button>
-                    <button class="radial-bt progress-next pointer">
-                      <i class="fa fa-arrow-right"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
+            <div class="col pt-5 pb-3">
+              <p class="color-white">
+                Praesent sollicitudin convallis justo vitae mattis. Praesent
+                molestie ante vitae laoreet tincidunt. Nam malesuada augue vitae
+                diam mollis porta. Curabitur in vulputate turpis. Praesent dictum
+                ante sed orci feugiat convallis. In malesuada ultricies lectus nec
+                pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+                Integer imperdiet gravida efficitur.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>3.7 - Accordion</h2>
-          <div class="accordion" id="first_accordion">
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_1"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_1"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_1"
-              >
-                <h5 class="mb-0">Lorem ipsum dolor sit amet</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_1"
-                class="collapse"
-                aria-labelledby="first_accordion_head_1"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
-                      <p> ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
-                      <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus</p>
-
-                      <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.</p>
-                      <p> Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue.</p>
-                    </div>
     
-                    <div class="col-5 col-md-3 mx-auto p-4">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\01.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_2"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_2"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_2"
-              >
-                <h5 class="mb-0">Etiam posuere quam ac quam. Maecenas</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_2"
-                class="collapse"
-                aria-labelledby="first_accordion_head_2"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat. Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.</p>
-
-                      <p> Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.
-                      </p>
-
-                      <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus.</p>
-
-                      <p> In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu, urna. Nullam at arcu a est sollicitudin euismod. Praesent dapibus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero,</p>
-                    </div>
-    
-                    <div class="col-5 col-md-3 mx-auto p-3">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\02.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_3"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_3"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_3"
-              >
-                <h5 class="mb-0">In sem justo, commodo ut</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_3"
-                class="collapse"
-                aria-labelledby="first_accordion_head_3"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci. Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus luctus egestas leo. Maecenas sollicitudin. Nullam rhoncus aliquam metus. Etiam egestas wisi a erat.</p>
-
-                      <p> Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.</p>
-
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Suspendisse nisl. Sed convallis magna eu sem. Cras pede libero, dapibus nec, pretium sit amet, tempor quis, urna.</p>
-
-                   
-                    </div>
-                    <div class="col-5 col-md-3 mx-auto p-3">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\03.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_4"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_4"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_4"
-              >
-                <h5 class="mb-0">Praesent in mauris eu tortor</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_4"
-                class="collapse"
-                aria-labelledby="first_accordion_head_4"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.</p>
-                    </div>
-                    <div class="col-5 col-md-3 mx-auto p-3">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\04.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_5"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_5"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_5"
-              >
-                <h5 class="mb-0">Etiam posuere quam ac</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_5"
-                class="collapse"
-                aria-labelledby="first_accordion_head_5"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non,</p>
-                    </div>
-                    <div class="col-5 col-md-3 mx-auto p-3">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\05.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="card">
-              <div
-                class="card-header pointer collapsed"
-                id="first_accordion_head_6"
-                data-toggle="collapse"
-                data-target="#first_accordion_collapse_6"
-                aria-expanded="true"
-                aria-controls="first_accordion_collapse_6"
-              >
-                <h5 class="mb-0">Morbi leo mi, nonummy ege</h5>
-              </div>
-              <div
-                id="first_accordion_collapse_6"
-                class="collapse"
-                aria-labelledby="first_accordion_head_6"
-                data-parent="#first_accordion"
-              >
-                <div class="card-body">
-                  <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-9">
-                      <p>Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante</p>
-                    </div>
-                    <div class="col-5 col-md-3 mx-auto p-3">
-                      <img
-                        src="assets\images\module_1\ilustracoes_modulo1\SVG\06.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col pt-5">
+            <h2>2.2 <i>Grid</i> com 1 coluna em fundo com imagem</h2>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid bg-compatible"
+        style="background:url(assets/img/imagem_14.jpg);"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col pt-5 pb-5">
+              <div class="box-fluid">
+                <p>
+                  Praesent sollicitudin convallis justo vitae mattis. Praesent
+                  molestie ante vitae laoreet tincidunt. Nam malesuada augue vitae
+                  diam mollis porta. Curabitur in vulputate turpis. Praesent dictum
+                  ante sed orci feugiat convallis. In malesuada ultricies lectus nec
+                  pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+                  Integer imperdiet gravida efficitur.
+                </p>
               </div>
             </div>
           </div>
@@ -730,23 +891,81 @@
       </div>
     </section>
     
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col pt-5">
+            <h2>2.3 <i>Grid</i> com 2 colunas em fundo colorido</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-orange pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="img-fluid" src="assets/img/imagem_15.jpg" />
+            </div>
+            <div class="col-md-7">
+              <p class="vertical-center color-white">
+                Praesent sollicitudin convallis justo vitae mattis. Praesent
+                molestie ante vitae laoreet tincidunt. Nam malesuada augue vitae
+                diam mollis porta. Curabitur in vulputate turpis. Praesent dictum
+                ante sed orci feugiat convallis. In malesuada ultricies lectus nec
+                pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+                Integer imperdiet gravida efficitur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>3. Destaques</h1>
+          </div>
+        </div>
+      </div>
+ 
+    </section>
+
+
+
+
+    
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <h2>4.1 - Saiba Mais</h2>
+          <h2>3.1 - Saiba Mais</h2>
           <div class="col-md-8 col-sm-12 mx-auto">
-            <div class="box box-saiba-mais">
-              <div class="box-interno">
-                <h5>Saiba Mais</h5>
-                <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo.<em>
-                    <a
-                      href="https://portal.prf.gov.br/"
-                    >
-                    Nam quis nulla. Integer malesuada. In in enim
-                    </a> </em
-                  >Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in</p>
-              </div>
-            </div>
+
+
+            <!-- SAIBA MAIS -->
+            <div class="box-dtq">                    
+
+                <div>
+
+                <img src="assets/images/module_common/saiba-mais.png">    
+
+                    <h5>Saiba Mais</h5>
+                    
+                    <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo.<em>
+                        <a
+                        href="https://portal.prf.gov.br/"
+                        >
+                        Nam quis nulla. Integer malesuada. In in enim
+                        </a> </em
+                    >Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in</p>
+                
+                </div> 
+
+            </div><!-- ./ SAIBA MAIS -->
+
           </div>
         </div>
       </div>
@@ -757,7 +976,7 @@
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <h2>4.3 - Citação</h2>
+          <h2>3.2 - Citação</h2>
           <div class="col-md-8 mx-auto">
             <blockquote>
               Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu,
@@ -771,22 +990,31 @@
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <h2>4.5 - Acesse</h2>
+          <h2>3.3 - Acesse</h2>
           <div class="col-md-8 col-sm-12 mx-auto">
-            <div class="box box-acesse">
-              <div class="box-interno">
-                <h5>Acesse</h5>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia
-                  <em>
-                    <a
-                      href="https://portal.prf.gov.br/"
-                    >
-                    Morbi leo mi, nonummy eget, tristique non, rhoncus non
-                    </a> </em
-                  >,Aenean placerat. In vulputate urna
-                </p>
-              </div>
-            </div>
+
+
+      <!-- acesse -->
+      <div class="box-dtq">                    
+
+          <div>
+
+          <img src="assets/images/module_common/acesse.png">    
+
+              <h5>Acesse</h5>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia<em>
+                  <a
+                  href="https://portal.prf.gov.br/"
+                  >
+                  Morbi leo mi, nonummy eget, tristique non, rhoncus non
+                  </a> </em
+              >,Aenean placerat. In vulputate urna</p>
+          
+          </div> 
+
+      </div><!-- ./ acesse -->
+
           </div>
         </div>
       </div>
@@ -795,12 +1023,30 @@
     <section class="container">
       <div class="row">
         <div class="col-12">
-          <h2>4.4 - Destaque</h2>
-          <div class="destaque mt-2 mb-3">
-            <p>
-              "Et harum quidem rerum facilis est et expedita distinctio." Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
-          </div>
+          <h2>3.4 - Destaque</h2>
+
+          <div class="col-md-12 col-sm-12 mx-auto"> 
+
+
+          
+
+      <!-- acesse -->
+      <div class="box-dtq">                    
+
+          <div>
+
+         
+           
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia sed orci feugiat convallis. In malesuada ultricies lectus nec
+                  pretium. Maecenas tincidunt mauris nec diam lobortis sodales.
+                  Integer imperdiet gravida efficitur.</p>
+          
+          </div> 
+
+      </div><!-- ./ acesse -->
+      </div>
+ 
         </div>
       </div>
     </section>
-    
