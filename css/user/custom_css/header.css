@@ -238,12 +238,12 @@ a.btn-menu {
 
 /*  CORES MÓDULO 1  */
 .modulo_1 .btn-menu::after {
-	background: var(--DNIT_COLOR_MODULE_ONE);
+	background: var(--DNIT_COLOR_MODULE_ONE_STRONG);
 }
 .modulo_1 .header_numero_modulo {
 	background-image: linear-gradient(
-		var(--DNIT_COLOR_MODULE_ONE),
-		var(--DNIT_COLOR_MODULE_ONE)
+		var(--DNIT_COLOR_MODULE_ONE_STRONG),
+		var(--DNIT_COLOR_MODULE_ONE_STRONG)
 	);
 }
 

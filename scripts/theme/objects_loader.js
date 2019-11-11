@@ -638,7 +638,7 @@ var refresh_objects_listeners = function () {
                     <div class="flip-card matchup-card-active" position="unset">\
                         <div class="flip-card-inner" '+ dimensions_string + '>\
                             <div class="matchup-card-front flip-card-front" >\
-                                <img class="logo-fundo" src="assets/images/identity/logos/marca.png">\
+                                <img class="logo-fundo" src="assets/images/identity/logos/Escudo_PRF.png">\
                             </div>\
                             <div class="matchup-card-back flip-card-back" '+ dimensions_string + '>\
                                 <img class="matchup-card-content" src="" draggable="false">\
