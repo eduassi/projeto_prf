@@ -769,7 +769,47 @@ ul {
 
 /* SAIBA MAIS END */
 
+/* destaque-prf */
 
+.dtq-prf {
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+	/* background: #f1f1f1; */
+	padding: 30px;
+	border-bottom-right-radius: 30px;
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG) ;
+
+}
+
+.dtq-prf .icon {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-radius: 100%;
+	top: -40px;
+	left: -40px;
+	/* background: burlywood; */
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+
+}
+
+.dtq-prf .txt {
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	border-radius: 6px;
+	top: -15px;
+	right: 20px;
+	background: white;
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+	text-align: center;
+	font-weight: bold;
+	font-family: ;
+
+}
+
+/* destaque-prf end */
 
 
 

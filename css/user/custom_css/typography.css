@@ -121,7 +121,11 @@ body,
 p,
 ul,
 ol {
-  font-family: "Open Sans", sans-serif;
+  font-family: "HelveticaNeueThin";
+  font-size: 11pt;
+  font-weight: 600;
+ 
+  
 }
 
 h1,
@@ -129,7 +133,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "HelveticaNeueBold";
+ 
 }
 
 figcaption {
@@ -212,16 +217,17 @@ figcaption {
 .modulo_4 h1 {
   width: 100%;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   background-size: 100% 15px;
   background-repeat: no-repeat;
   background-position: bottom;
   margin-top: 1.75rem;
-  font-size: 34px;
+  font-size: 18pt;
+  font-family: "HelveticaNeueBold" ;
 }
 
 /*  H2  */
-.modulo_1 h2 {
+/* .modulo_1 h2 {
   background-image: linear-gradient(
     var(--DNIT_COLOR_MODULE_ONE),
     var(--DNIT_COLOR_MODULE_ONE)
@@ -239,7 +245,7 @@ figcaption {
   background-image: linear-gradient(
     var(--DNIT_COLOR_MODULE_THREE),
     var(--DNIT_COLOR_MODULE_THREE)
-  );
+  ); */
 }
 
 .modulo_4 h2 {
@@ -259,11 +265,13 @@ figcaption {
   background-repeat: no-repeat;
   padding-top: 20px;
   margin-top: 4rem;
-  font-size: 26px;
+  font-size: 13pt;
+  font-family: "HelveticaNeueRegular";
+  text-transform: uppercase;
 }
 
 /*  H3  */
-.modulo_1 h3 {
+/* .modulo_1 h3 {
   color: var(--DNIT_COLOR_MODULE_ONE);
   background-image: linear-gradient(
     var(--DNIT_COLOR_MODULE_ONE),
@@ -293,7 +301,7 @@ figcaption {
     var(--DNIT_COLOR_MODULE_FOUR),
     var(--DNIT_COLOR_MODULE_FOUR)
   );
-}
+} */
 
 .modulo_1 h3,
 .modulo_2 h3,
@@ -304,11 +312,12 @@ figcaption {
   background-repeat: no-repeat;
   padding-left: 0;
   font-weight: 200;
-  font-size: 1.3em;
+  font-size: 11pt;
+  font-family: "HelveticaNeueThin";
 }
 
 /*  H4  */
-.modulo_1 h4 {
+/* .modulo_1 h4 {
   color: var(--DNIT_COLOR_MODULE_ONE);
 }
 
@@ -322,7 +331,7 @@ figcaption {
 
 .modulo_4 h4 {
   color: var(--DNIT_COLOR_MODULE_FOUR);
-}
+} */
 
 .modulo_1 h4,
 .modulo_2 h4,

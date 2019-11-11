@@ -206,7 +206,7 @@ a.btn-menu {
 .header_numero_modulo {
 	font-weight: bold;
 	color: #333;
-	font-size: 0.5em;
+	font-size: 13pt;
 	margin-left: -35px;
 	padding-left: 35px;
 	background-position: bottom left;
@@ -217,14 +217,14 @@ a.btn-menu {
 .header_numero_modulo_resumido {
 	font-weight: bold;
 	color: #333;
-	font-size: 0.5em;
+	font-size: 11pt;
 	margin-left: -65px;
 	position: relative;	
 }
 
 .header_titulo_modulo {
 	color: #575757;
-	font-size: 0.5em;
+	font-size: 11pt;
 	line-height: 1.2em;
 	margin-top: 3px;
 }
