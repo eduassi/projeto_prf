@@ -757,7 +757,7 @@ ul {
   position: relative;
   width: 100%;
   height: auto;
-  border: 2px solid var(--DNIT_COLOR_MODULE_ONE) ;
+  border: 2px solid #282E56 ;
 
   padding: 15px;
   padding-top: 60px;
@@ -805,8 +805,7 @@ ul {
 	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
 	text-align: center;
 	font-weight: bold;
-	font-family: ;
-
+	
 }
 
 /* destaque-prf end */
