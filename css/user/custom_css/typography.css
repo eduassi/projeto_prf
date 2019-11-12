@@ -138,8 +138,9 @@ h5 {
 }
 
 figcaption {
-  font-size: 0.8em;
+  font-size: 10pt;
   text-align: justify;
+  font-family: "HelveticaNeueThin";
 }
 
 .modulo_1 p,
@@ -341,3 +342,9 @@ figcaption {
   font-size: 1em;
   font-weight: 200;
 }
+
+
+
+
+
+
