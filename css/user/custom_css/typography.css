@@ -122,7 +122,7 @@ p,
 ul,
 ol {
   font-family: "HelveticaNeueThin";
-  font-size: 13pt;
+  font-size: 15pt;
   font-weight: 200;
  
   
@@ -223,7 +223,7 @@ figcaption {
   background-repeat: no-repeat;
   background-position: bottom;
   margin-top: 1.75rem;
-  font-size: 18pt;
+  font-size: 20pt;
   font-family: "HelveticaNeueBold" ;
 }
 
@@ -266,7 +266,7 @@ figcaption {
   background-repeat: no-repeat;
   padding-top: 20px;
   margin-top: 4rem;
-  font-size: 16pt;
+  font-size: 18pt;
   font-family: "HelveticaNeueRegular";
   text-transform: uppercase;
 }
@@ -313,7 +313,7 @@ figcaption {
   background-repeat: no-repeat;
   padding-left: 0;
   font-weight: 200;
-  font-size: 15pt;
+  font-size: 16pt;
   font-family: "HelveticaNeueThin";
   text-transform: uppercase;
 }
@@ -339,7 +339,7 @@ figcaption {
 .modulo_2 h4,
 .modulo_3 h4,
 .modulo_4 h4 {
-  font-size: 1em;
+  font-size: 15pt;
   font-weight: 200;
 }
 
