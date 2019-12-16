@@ -116,6 +116,11 @@ section {
   margin-left: 20px;
 }
 
+ul.list-group{
+  list-style: disc !important;
+  margin-left: 20px;
+}
+
 .modulo_1 a {
   text-decoration: underline;
 }
