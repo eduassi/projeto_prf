@@ -60,14 +60,14 @@ header .navbar {
 }
 
 .paginacao-links {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Bitter', serif;
 	cursor: pointer;
 	margin: 0 10px;
 }
 
 /* NAVEGAÇÃO DOS CAPÍTULOS */
 .capitulos-header {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Bitter', serif;
 	font-size: 18px;
 	text-align: center;
 }
@@ -125,7 +125,7 @@ a.capitulo-link:hover {
 
 /* MENU */
 .btn-menu {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Bitter', serif;
 	line-height: 48px;
 	font-size: 20px;
 	letter-spacing: 0.05em;

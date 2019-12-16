@@ -1,8 +1,5 @@
 blockquote {
   position: relative;
-  /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;*/
   padding-top: 60px;
   padding-left: 4em;
   padding-right: 4em;
@@ -121,11 +118,9 @@ body,
 p,
 ul,
 ol {
-  font-family: "HelveticaNeueThin";
-  font-size: 15pt;
-  font-weight: 200;
- 
-  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 400;  
 }
 
 h1,
@@ -133,14 +128,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "HelveticaNeueBold";
- 
+  font-family: 'Open Sans', sans-serif; 
 }
 
 figcaption {
   font-size: 10pt;
   text-align: justify;
-  font-family: "HelveticaNeueThin";
+  font-family: 'Open Sans', sans-serif;
 }
 
 .modulo_1 p,
@@ -155,9 +149,9 @@ figcaption {
 .modulo_4 p,
 .modulo_4 ul,
 .modulo_4 ol {
-  color: var(--DNIT_FONT_COLOR);
-  font-weight: 200;
-  margin-bottom: 2rem;
+  color: var(--PRF_FONT_COLOR);
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .modulo_1 h1,
@@ -180,80 +174,17 @@ figcaption {
 .modulo_4 h3,
 .modulo_4 h4,
 .modulo_4 h5 {
-  margin-bottom: 1.75rem;
+  margin-bottom: 35px;
 }
 
-/*  H1  */
-.modulo_1 h1 {
-  background: linear-gradient(
-    var(--DNIT_COLOR_MODULE_ONE_LIGHT),
-    var(--DNIT_COLOR_MODULE_ONE_LIGHT)
-  );
-}
-
-.modulo_2 h1 {
-  background: linear-gradient(
-    var(--DNIT_COLOR_MODULE_TWO_LIGHT),
-    var(--DNIT_COLOR_MODULE_TWO_LIGHT)
-  );
-}
-
-.modulo_3 h1 {
-  background: linear-gradient(
-    var(--DNIT_COLOR_MODULE_THREE_LIGHT),
-    var(--DNIT_COLOR_MODULE_THREE_LIGHT)
-  );
-}
-
-.modulo_4 h1 {
-  background: linear-gradient(
-    var(--DNIT_COLOR_MODULE_FOUR_LIGHT),
-    var(--DNIT_COLOR_MODULE_FOUR_LIGHT)
-  );
-}
 
 .modulo_1 h1,
 .modulo_2 h1,
 .modulo_3 h1,
 .modulo_4 h1 {
-  width: 100%;
   text-transform: uppercase;
-  font-weight: bold;
-  background-size: 100% 15px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  margin-top: 1.75rem;
-  font-size: 20pt;
-  font-family: "HelveticaNeueBold" ;
-}
-
-/*  H2  */
-/* .modulo_1 h2 {
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_ONE),
-    var(--DNIT_COLOR_MODULE_ONE)
-  );
-}
-
-.modulo_2 h2 {
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_TWO),
-    var(--DNIT_COLOR_MODULE_TWO)
-  );
-}
-
-.modulo_3 h2 {
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_THREE),
-    var(--DNIT_COLOR_MODULE_THREE)
-  ); */
-
-
-.modulo_4 h2 {
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_FOUR),
-    var(--DNIT_COLOR_MODULE_FOUR)
-  );
+  font-size: 28pt;
+  font-weight: 800;
 }
 
 .modulo_1 h2,
@@ -261,90 +192,25 @@ figcaption {
 .modulo_3 h2,
 .modulo_4 h2 {
   text-transform: uppercase;
-  background-position: 0 0;
-  background-size: 80px 10px;
-  background-repeat: no-repeat;
-  padding-top: 20px;
-  margin-top: 4rem;
-  font-size: 18pt;
-  font-family: "HelveticaNeueRegular";
-  text-transform: uppercase;
+  font-size: 24pt;
+  font-weight: 700;
 }
 
-/*  H3  */
-/* .modulo_1 h3 {
-  color: var(--DNIT_COLOR_MODULE_ONE);
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_ONE),
-    var(--DNIT_COLOR_MODULE_ONE)
-  );
-}
-
-.modulo_2 h3 {
-  color: var(--DNIT_COLOR_MODULE_TWO);
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_TWO),
-    var(--DNIT_COLOR_MODULE_TWO)
-  );
-}
-
-.modulo_3 h3 {
-  color: var(--DNIT_COLOR_MODULE_THREE);
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_THREE),
-    var(--DNIT_COLOR_MODULE_THREE)
-  );
-}
-
-.modulo_4 h3 {
-  color: var(--DNIT_COLOR_MODULE_FOUR);
-  background-image: linear-gradient(
-    var(--DNIT_COLOR_MODULE_FOUR),
-    var(--DNIT_COLOR_MODULE_FOUR)
-  );
-} */
 
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
 .modulo_4 h3 {
-  background-position: bottom left;
-  background-size: 100% 2px;
-  background-repeat: no-repeat;
-  padding-left: 0;
-  font-weight: 200;
-  font-size: 16pt;
-  font-family: "HelveticaNeueThin";
+  font-weight: 600;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
-/*  H4  */
-/* .modulo_1 h4 {
-  color: var(--DNIT_COLOR_MODULE_ONE);
-}
-
-.modulo_2 h4 {
-  color: var(--DNIT_COLOR_MODULE_TWO);
-}
-
-.modulo_3 h4 {
-  color: var(--DNIT_COLOR_MODULE_THREE);
-}
-
-.modulo_4 h4 {
-  color: var(--DNIT_COLOR_MODULE_FOUR);
-} */
 
 .modulo_1 h4,
 .modulo_2 h4,
 .modulo_3 h4,
 .modulo_4 h4 {
-  font-size: 15pt;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 600;
 }
-
-
-
-
-
-

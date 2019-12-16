@@ -11,7 +11,7 @@
     margin-bottom:0;
 }
 .sumario-titulo {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter', serif;
     color: #888;
     margin-left: 20px;
     margin-right: 20px;
@@ -52,7 +52,7 @@ ul#menu_item_list li:hover {
 }
 
 .sidebar-titulo-modulos {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter', serif;
     font-size: 20px;
     color: #fff;
     text-transform:uppercase;
