@@ -1,75 +1,84 @@
-.destaque {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    margin-bottom: 50px !important;
+.featured {
     position: relative;
-    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 50px !important;
+    margin-top:40px;
+    border-radius: 15px;
+    border: 2px solid #929292;
+    
+
+}
+.featured .in {
+    position: relative;
+    padding: 15px;
+    background: #f3f3f3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
-.destaque p {
+.featured .txt{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 400;
+}
+.featured .in p{
     margin: 0;
     padding: 0;
-    margin: 30px;
+}
+.featured .container-icon{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -45px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px !important;
+    background: white;
+
+}
+.featured .icon{
+    position: relative;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    border-radius: 50%;
 }
 
-.destaque:before,
-.destaque:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    background-size: 100%;
+.featured .reflita{
+    background: url(../../../assets/images/identity/resources/case.png) #f3f3f3;
+    background-position-x: center;
+    background-position-y: center;
     background-repeat: no-repeat;
 }
 
-/* Cores Módulo 1 */
-.modulo_1 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_ONE_STRONG);
+.citation{
+    width: 100%;
+    height: auto;
+    background: url(../../../assets/images/identity/resources/citation-top.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+.citation .in{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background: url(../../../assets/images/identity/resources/citation-bottom.png);
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+.citation p{
+    padding: 0;
+    margin: 0;
 }
 
-.modulo_1 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_1/svg/destaque-top-modulo1.svg);
-}
 
-.modulo_1 .destaque:after {
-    background-image: url(../../../assets/images/module_1/svg/destaque-bottom-modulo1.svg);
-}
-
-
-/* Cores Módulo 2 */
-.modulo_2 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_TWO);
-}
-.modulo_2 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_2/svg/destaque-top-modulo2.svg);
-}
-.modulo_2 .destaque:after {
-    background-image: url(../../../assets/images/module_2/svg/destaque-bottom-modulo2.svg);
-}
-
-/* Cores Módulo 3 */
-.modulo_3 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_THREE);
-}
-.modulo_3 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_3/svg/destaque-top-modulo3.svg);
-}
-.modulo_3 .destaque:after {
-    background-image: url(../../../assets/images/module_3/svg/destaque-bottom-modulo3.svg);
-}
-
-/* Cores Módulo 4 */
-.modulo_4 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_FOUR);
-}
-.modulo_4 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_4/svg/destaque-top-modulo4.svg);
-}
-.modulo_4 .destaque:after {
-    background-image: url(../../../assets/images/module_4/svg/destaque-bottom-modulo4.svg);
-}

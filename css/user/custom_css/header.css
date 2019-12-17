@@ -224,9 +224,10 @@ a.btn-menu {
 
 .header_titulo_modulo {
 	color: #575757;
-	font-size: 11pt;
+	font-size: 9pt;
 	line-height: 1.2em;
 	margin-top: 3px;
+	font-weight: 400;
 }
 
 .modulo_1 .btn-menu a:hover,
