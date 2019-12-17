@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 1",
     "modulo-resumido": "M1",
-    "modulo-nome": "Lorem Ipsum"
+    "modulo-nome": "A fiscalização de trânsito é uma atividade de segurança pública?"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -13,19 +13,19 @@
   },
   "pages": [
     {
-      "placeholder": "Capítulo 1",
+      "placeholder": "Apresentação",
       "url": "pages/capitulo_0.html"
     },
     {
-      "placeholder": "Capítulo 2",
+      "placeholder": "Unidade 1",
       "url": "pages/capitulo_1.html"
     },
     {
-      "placeholder": "Capítulo 3",
+      "placeholder": "Unidade 2",
       "url": "pages/capitulo_2.html"
     },
     {
-      "placeholder": "Capítulo 4",
+      "placeholder": "Unidade 3",
       "url": "pages/capitulo_3.html"
     }
   ]
