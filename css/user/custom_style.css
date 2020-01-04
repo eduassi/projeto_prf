@@ -288,7 +288,7 @@ ul.list-bullet{
 
 .modulo_1 .accordion .card-header {
   background-color: var(--DNIT_COLOR_MODULE_ONE);
-  background-image: url(../../assets/images/module_common/seta_branca_90_graus.png);
+  background-image: url(../../assets/images/identity/resources/arrow-black-down.png);
   background-size: 25px 22px;
   background-position: right 5px center;
   border-radius: 0;
@@ -299,7 +299,7 @@ ul.list-bullet{
 
 .modulo_1 .accordion .card-header.collapsed {
   background-color: var(--DNIT_COLOR_MODULE_ONE_LIGHT);
-  background-image: url(../../assets/images/module_1/resources/seta_corada.png);
+  background-image: url(../../assets/images/identity/resources/arrow-black-left.png);
   background-size: 22px 25px;
   background-position: right 5px center;
   border-radius: 5px !important;
@@ -308,6 +308,13 @@ ul.list-bullet{
 .modulo_1 .accordion .card-body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.modulo_1 .accordion .card-body p{
+  padding: 0;
+  margin: 0;
 }
 
 .modulo_1 .card-body {
