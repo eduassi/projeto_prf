@@ -147,3 +147,10 @@
     background-position-y: center;
     background-repeat: no-repeat;
 }
+
+.featured-prf .para-refletir{
+    background: url(../../../assets/images/identity/para-refletir.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
