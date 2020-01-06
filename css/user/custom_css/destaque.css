@@ -160,3 +160,19 @@ span.gls{
 .glossario .bar-bottom-v{
     background-color: #006563;
 }
+
+
+/* destaque */
+.destaque{
+    border-top: 2px solid #d78d22;
+    border-bottom: 2px solid #d78d22;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.destaque p{
+    margin: 0;
+    padding: 0;
+}
+
