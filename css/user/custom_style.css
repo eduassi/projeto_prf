@@ -24,6 +24,8 @@ body {
   max-width: 920px;
 }
 
+
+
 /* GENERAL FORMAT */
 section {
   margin-top: 15px;
@@ -1130,6 +1132,8 @@ ul.list-bullet{
   color: var(--DNIT_COLOR_MODULE_FOUR);
   border: solid 1px var(--DNIT_COLOR_MODULE_FOUR_STRONG);
 }
+
+
 
 @-webkit-keyframes lss-progress-bar-stripes {
   0% {

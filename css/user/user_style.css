@@ -2,7 +2,7 @@
   color:white;
 }
 
-.title{
+/* .title{
   background: var(--DNIT_COLOR_MODULE_ONE_STRONG);
   padding-top: 15px;
   padding-bottom: 15px;
@@ -11,7 +11,7 @@
   color:white;
   margin: 0;
   padding: 0;
-}
+} */
 
 .modulo_1 .animation-screen {
   position: relative;
@@ -197,3 +197,12 @@
 #tables_modal .modal-content{
     border-radius: 20px !important;
 }
+
+
+p.fonte{
+  margin-top: 15px;
+  font-size: 14px !important;
+  text-align: center !important; 
+}
+
+
