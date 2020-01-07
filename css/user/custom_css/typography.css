@@ -221,12 +221,11 @@ h5.title{
   background-size: 100% 2px ;
   background-repeat: no-repeat;
   padding-bottom: 4px;
-  margin-top: 2rem;
   color: var(--PRF_FONT_COLOR);
   text-align: left !important;
   font-size: 22px;
   font-weight: 600;
-background-image: linear-gradient( var(--COLOR_YELLOW_STR), var(--COLOR_YELLOW_STR));  
+  background-image: linear-gradient( var(--COLOR_YELLOW_STR), var(--COLOR_YELLOW_STR));  
   
 }
 

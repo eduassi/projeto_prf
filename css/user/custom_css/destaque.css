@@ -131,6 +131,11 @@ span.gls{
 .para-refletir .txt{
     color: #ffca3e;
 }
+.glossario .icon{
+    position: absolute;
+    top: -70px;
+    left: 70px;
+}
 .para-refletir .bar-top-v, 
 .para-refletir .bar-top-h, 
 .para-refletir .bar-bottom-h, 
@@ -160,6 +165,36 @@ span.gls{
 .glossario .bar-bottom-v{
     background-color: #006563;
 }
+
+
+
+/* saiba mais */
+.saiba-mais {
+    position: relative;
+    padding: 0;
+    padding-top: 37px;
+    padding-left: 2px;
+    margin-bottom: 50px !important;
+}
+.saiba-mais .in {
+    background-color: #d1d8e5;
+}
+.saiba-mais .txt{
+    color: #677aa5;
+}
+.saiba-mais .icon {
+    position: absolute;
+    top: -57px;
+    left: 100px;
+}
+.saiba-mais .bar-top-v, 
+.saiba-mais .bar-top-h, 
+.saiba-mais .bar-bottom-h, 
+.saiba-mais .bar-bottom-v{
+    background-color: #677aa5;
+}
+
+
 
 
 /* destaque */
