@@ -79,22 +79,3 @@
         <figcaption>Morbi a metus| Phasellus: enim erat</figcaption>
     </div>
 </section>
-
-
-
-
-
-
-
-<script>
-    let current_module = "modulo_1";
-    function change_module() {
-        let new_module_val = $("#module_selector")[0].value;
-        let new_module = "modulo_" + new_module_val;
-        $("#module-wrapper").removeClass(current_module);
-        $("#module-wrapper").addClass(new_module);
-        $(".module_reference").text("MÓDULO " + new_module_val);
-        $(".header_numero_modulo").text("MÓDULO " + new_module_val);
-        current_module = new_module;
-    }
-</script>
