@@ -46,6 +46,7 @@ span.gls{
     border: none;
     border-radius: 0;
     outline: 0;
+    border-radius: 15px;
 }
 
 
@@ -60,7 +61,7 @@ span.gls{
     position: relative;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
-    padding: 15px;
+    padding: 25px;
     width: 100%;
     height: 100%;
 }
@@ -76,6 +77,9 @@ span.gls{
     position: absolute;
     top: -70px;
     left: 110px;
+}
+.destaque {
+    position: relative;
 }
 .bar-top-h{
     position: absolute;
@@ -109,7 +113,7 @@ span.gls{
     width: 2px;
     background-color: #929292;
 }
-.featured-prf .in p{
+.featured-prf .in p, .destaque p{
     margin: 0;
     padding: 0;
 }
@@ -122,8 +126,6 @@ span.gls{
     padding: 0;
     padding-top: 37px;
     padding-left: 2px;
-    margin-bottom: 50px !important;
-    margin-top: 40px; 
 }
 .para-refletir .in {
     background-color: #ffeec6;
@@ -174,7 +176,6 @@ span.gls{
     padding: 0;
     padding-top: 37px;
     padding-left: 2px;
-    margin-bottom: 50px !important;
 }
 .saiba-mais .in {
     background-color: #d1d8e5;
@@ -198,16 +199,21 @@ span.gls{
 
 
 /* destaque */
-.destaque{
-    border-top: 2px solid #d78d22;
-    border-bottom: 2px solid #d78d22;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.destaque {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffe5ca;
 }
-.destaque p{
-    margin: 0;
-    padding: 0;
+.destaque .bar-top-v, 
+.destaque .bar-top-h, 
+.destaque .bar-bottom-h, 
+.destaque .bar-bottom-v{
+    position: absolute;
+    background-color: #f68b29;
 }
+
+
 
