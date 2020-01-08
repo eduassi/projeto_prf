@@ -85,7 +85,6 @@ a.capitulo-link:hover {
 	/* color: #fff; */
 	/* background-color: #888; */
 	border-radius: 100%;
-
 	background: var(--COLOR_YELLOW_SOF);
 	color: var(--COLOR_YELLOW_SOF);
 }
@@ -103,8 +102,8 @@ a.capitulo-link:hover {
 	align-items: center;
 	margin-left: 5px;
 	margin-right: 5px;
-	background: var(--COLOR_YELLOW_MED);
-	color: var(--COLOR_YELLOW_MED);
+	background: var(--COLOR_BLUE_PRF);
+	color: var(--COLOR_BLUE_PRF);
 	border-radius: 50%;
 	cursor: pointer;
 }
