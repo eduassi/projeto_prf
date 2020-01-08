@@ -116,8 +116,8 @@ a.capitulo-link:hover {
 
 .ball-item-holder .ball-item:hover {
 	border-radius: 50%;
-	background: var(--COLOR_YELLOW_MED);
-	color: var(--COLOR_YELLOW_MED);
+	background: white;
+	color: var(--COLOR_YELLOW_SOF);
 }
 
 .ball-item-holder a {
