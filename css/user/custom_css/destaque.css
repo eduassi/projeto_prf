@@ -215,5 +215,24 @@ span.gls{
     background-color: #f68b29;
 }
 
+/* blue water */
+.blue-water{
+    background: url(../../../assets/images/module/onu.png) var(--PRF_COLOR_MODULE_SOF);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.blue-water p{
+    color: white;
+}
+.blue-water .bar-top-v, 
+.blue-water .bar-top-h, 
+.blue-water .bar-bottom-h, 
+.blue-water .bar-bottom-v{
+    position: absolute;
+    background-color: var(--COLOR_BLUE_PRF);
+}
+
 
 
