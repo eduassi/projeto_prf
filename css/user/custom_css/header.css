@@ -67,9 +67,10 @@ header .navbar {
 
 /* NAVEGAÇÃO DOS CAPÍTULOS */
 .capitulos-header {
-	font-family: 'Bitter', serif;
+	/* font-family: 'Bitter', serif; */
 	font-size: 18px;
 	text-align: center;
+	font-weight: bold;
 }
 
 a.capitulo-link {
@@ -131,7 +132,7 @@ a.capitulo-link:hover {
 
 /* MENU */
 .btn-menu {
-	font-family: 'Bitter', serif;
+	/* font-family: 'Bitter', serif; */
 	line-height: 48px;
 	font-size: 20px;
 	letter-spacing: 0.05em;
@@ -139,6 +140,7 @@ a.capitulo-link:hover {
 	background-size: 170px 100%;
 	background-repeat: no-repeat;
 	overflow: inherit;
+	font-weight: bold;
 }
 
 .btn-menu:hover {

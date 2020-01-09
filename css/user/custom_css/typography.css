@@ -214,9 +214,7 @@ figcaption {
 }
 
 
-h5.title{
-  
-
+h5.title{ 
   background-position: 100% 100%;
   background-size: 100% 2px ;
   background-repeat: no-repeat;
@@ -225,7 +223,25 @@ h5.title{
   text-align: left !important;
   font-size: 22px;
   font-weight: 600;
-  background-image: linear-gradient( var(--COLOR_YELLOW_STR), var(--COLOR_YELLOW_STR));  
+  background-image: linear-gradient( var(--COLOR_YELLOW_STR), var(--COLOR_YELLOW_STR)); 
+  margin-bottom: 10px; 
   
+}
+p.title-min{
+  font-size: 13px;
+  margin-bottom: 0;
+
+}
+p.fonte-min{
+  margin-top: 0;
+  font-size: 12px;
+  word-wrap: break-word
+}
+
+p.fonte{
+  margin-top: 0;
+  font-size: 14px !important;
+  text-align: center !important; 
+  word-wrap: break-word
 }
 

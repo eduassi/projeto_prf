@@ -199,11 +199,7 @@
 }
 
 
-p.fonte{
-  margin-top: 15px;
-  font-size: 14px !important;
-  text-align: center !important; 
-}
+
 .btn-warning {
   color: white;
   background-color: var(--COLOR_BLUE_PRF);  
