@@ -93,6 +93,7 @@ section {
 .progress-bar-container .text-item {
   margin-bottom: 0px;
   padding-bottom: 0px;
+  padding: 0px 15px 0;
 }
 
 .progress-bar-illustration {
