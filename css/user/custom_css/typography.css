@@ -223,14 +223,17 @@ h5.title{
   text-align: left !important;
   font-size: 22px;
   font-weight: 600;
-  /* background-image: linear-gradient( var(--COLOR_YELLOW_STR), var(--COLOR_YELLOW_STR));  */
-  margin-bottom: 25px;
-  text-align: center !important;  
+  margin-bottom: 5px;
+  text-align: left !important;  
+}
+p.title{
+  
 }
 p.title-min{
   font-size: 13px;
-  margin-bottom: 0;
-
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 p.fonte-min{
   margin-top: 0;
@@ -239,9 +242,9 @@ p.fonte-min{
 }
 
 p.fonte{
-  margin-top: 0;
+  margin-top: 10px;
   font-size: 14px !important;
-  text-align: center !important; 
+  text-align: left !important; 
   word-wrap: break-word
 }
 
