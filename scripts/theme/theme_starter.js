@@ -3,16 +3,20 @@ var check_all_images_complete = function(callback){
     let images_container = $("#content-viewer").find("img");
     let number_images = images_container.length;
     let progress = 0;
+    if($(images_container).length){
+        $(images_container).one("load", function() {
+            progress++;
+            if(progress >= number_images){
+                setTimeout(function(){
+                    callback();
+                    already_loaded = true;
+                },1000);
+            }
+        });   
+    }else{
+        callback();
+    }
     
-    $(images_container).one("load", function() {
-        progress++;
-        if(progress >= number_images){
-            setTimeout(function(){
-                callback();
-                already_loaded = true;
-            },1000);
-        }
-    });   
     
 }
 
