@@ -198,14 +198,14 @@ ul.list-bullet{
 }
 
 .modulo_1 .jesus_slider_no_arrow_image_background .active .slide_ball {
-  background: url(../../assets/images/module_1/resources/hex_active.png) center
+  background: url(../../assets/images/module_common/hex_active.png) center
     center no-repeat;
   background-size: 100%;
   color: var(--DNIT_FONT_COLOR);
 }
 
 .modulo_1 .jesus_slider_no_arrow_image_background .slide_ball {
-  background: url(../../assets/images/module_1/resources/hex.png) center center
+  background: url(../../assets/images/module_common/hex.png) center center
     no-repeat;
   background-size: 100%;
   border-color: var(--DNIT_COLOR_MODULE_ONE);
