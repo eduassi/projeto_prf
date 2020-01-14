@@ -1,75 +1,238 @@
-.destaque {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    margin-bottom: 50px !important;
-    position: relative;
-    margin: 0 auto;
-}
-
-.destaque p {
-    margin: 0;
-    padding: 0;
-    margin: 30px;
-}
-
-.destaque:before,
-.destaque:after {
-    content: "";
-    height: 100%;
+.citation{
     width: 100%;
-    position: absolute;
-    left: 0;
-    background-size: 100%;
+    height: auto;
+    background: url(../../../assets/images/identity/resources/citation-top.png);
+    background-position-x: 0;
+    background-position-y: 0;
     background-repeat: no-repeat;
 }
-
-/* Cores MÛdulo 1 */
-.modulo_1 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_ONE_STRONG);
+.citation .in{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background: url(../../../assets/images/identity/resources/citation-bottom.png);
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+.citation p{
+    padding: 0;
+    margin: 0;
 }
 
-.modulo_1 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_1/svg/destaque-top-modulo1.svg);
+
+/* gloss√°rio */
+
+span.gls{
+    background-color: #006563;
+    padding-left: 3px;
+    padding-right: 3px;
+    color:white;
+    cursor: pointer;
 }
 
-.modulo_1 .destaque:after {
-    background-image: url(../../../assets/images/module_1/svg/destaque-bottom-modulo1.svg);
+.glossario-modal .modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: none !important;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    border-radius: 15px;
 }
 
 
-/* Cores MÛdulo 2 */
-.modulo_2 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_TWO);
+
+
+/* PRF */
+.featured-prf {
+    position: relative;
+    padding: 0;    
 }
-.modulo_2 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_2/svg/destaque-top-modulo2.svg);
+.featured-prf .in {
+    position: relative;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
 }
-.modulo_2 .destaque:after {
-    background-image: url(../../../assets/images/module_2/svg/destaque-bottom-modulo2.svg);
+.featured-prf .txt{
+    position: absolute;
+    top: -26px;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.featured-prf .icon{
+    position: absolute;
+    top: -70px;
+    left: 110px;
+}
+.destaque {
+    position: relative;
+}
+.bar-top-h{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 30%;
+    background-color: #929292;
+}
+.bar-top-v{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 2px;
+    background-color: #929292;
+}
+.bar-bottom-h{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    background-color: #929292;
+}
+.bar-bottom-v{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 30%;
+    width: 2px;
+    background-color: #929292;
+}
+.featured-prf .in p, .destaque p{
+    margin: 0;
+    padding: 0;
 }
 
-/* Cores MÛdulo 3 */
-.modulo_3 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_THREE);
+
+/* para-refletir */
+
+.para-refletir {
+    position: relative;
+    padding: 0;
+    padding-top: 37px;
+    padding-left: 2px;
 }
-.modulo_3 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_3/svg/destaque-top-modulo3.svg);
+.para-refletir .in {
+    background-color: #ffeec6;
 }
-.modulo_3 .destaque:after {
-    background-image: url(../../../assets/images/module_3/svg/destaque-bottom-modulo3.svg);
+.para-refletir .txt{
+    color: #ffca3e;
+}
+.glossario .icon{
+    position: absolute;
+    top: -70px;
+    left: 70px;
+}
+.para-refletir .bar-top-v, 
+.para-refletir .bar-top-h, 
+.para-refletir .bar-bottom-h, 
+.para-refletir .bar-bottom-v{
+    background-color: #ffca3e;
 }
 
-/* Cores MÛdulo 4 */
-.modulo_4 .destaque p {
-    color: var(--DNIT_COLOR_MODULE_FOUR);
+
+/* gloss√°rio */
+.glossario {
+    position: relative;
+    padding: 0;
+    padding-top: 37px;
+    padding-left: 2px;
+    margin-bottom: 50px !important;
+    margin-top: 40px; 
 }
-.modulo_4 .destaque:before {
-    top: -5px;
-    background-image: url(../../../assets/images/module_4/svg/destaque-top-modulo4.svg);
+.glossario .in {
+    background-color: #afdedc;
 }
-.modulo_4 .destaque:after {
-    background-image: url(../../../assets/images/module_4/svg/destaque-bottom-modulo4.svg);
+.glossario .txt{
+    color: #006563;
 }
+.glossario .bar-top-v, 
+.glossario .bar-top-h, 
+.glossario .bar-bottom-h, 
+.glossario .bar-bottom-v{
+    background-color: #006563;
+}
+
+
+
+/* saiba mais */
+.saiba-mais {
+    position: relative;
+    padding: 0;
+    padding-top: 58px;
+    padding-left: 2px;
+}
+.saiba-mais .in {
+    background-color: #d1d8e5;
+}
+.saiba-mais .txt{
+    color: #677aa5;
+}
+.saiba-mais .icon {
+    position: absolute;
+    top: -57px;
+    left: 100px;
+}
+.saiba-mais .bar-top-v, 
+.saiba-mais .bar-top-h, 
+.saiba-mais .bar-bottom-h, 
+.saiba-mais .bar-bottom-v{
+    background-color: #677aa5;
+}
+
+
+
+
+/* destaque */
+.destaque {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffe5ca;
+}
+.destaque .bar-top-v, 
+.destaque .bar-top-h, 
+.destaque .bar-bottom-h, 
+.destaque .bar-bottom-v{
+    position: absolute;
+    background-color: #f68b29;
+}
+
+/* blue water */
+.blue-water{
+    background: url(../../../assets/images/module/onu.png) var(--PRF_COLOR_MODULE_SOF);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.blue-water p{
+    color: white;
+}
+.blue-water .bar-top-v, 
+.blue-water .bar-top-h, 
+.blue-water .bar-bottom-h, 
+.blue-water .bar-bottom-v{
+    position: absolute;
+    background-color: var(--COLOR_BLUE_PRF);
+}
+
+
+

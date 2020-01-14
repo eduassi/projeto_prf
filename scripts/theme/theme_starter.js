@@ -35,3 +35,8 @@ var load_page = function(url,callback) {
         $("html, body").animate({ scrollTop: 0 }, 500);
 	});
 };
+
+//abrir link
+var openUrl = function (link) {
+    window.open(link, "_blank"); 
+};

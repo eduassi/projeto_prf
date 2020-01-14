@@ -67,9 +67,10 @@ header .navbar {
 
 /* NAVEGAÇÃO DOS CAPÍTULOS */
 .capitulos-header {
-	font-family: 'Bitter', serif;
+	/* font-family: 'Bitter', serif; */
 	font-size: 18px;
 	text-align: center;
+	font-weight: bold;
 }
 
 a.capitulo-link {
@@ -82,9 +83,11 @@ a.capitulo-link {
 }
 
 a.capitulo-link:hover {
-	color: #fff;
-	background-color: #888;
+	/* color: #fff; */
+	/* background-color: #888; */
 	border-radius: 100%;
+	background: var(--COLOR_YELLOW_MED);
+	/* color: var(--COLOR_YELLOW_MED); */
 }
 
 .ball-item-holder {
@@ -100,18 +103,22 @@ a.capitulo-link:hover {
 	align-items: center;
 	margin-left: 5px;
 	margin-right: 5px;
+	background: var(--COLOR_BLUE_PRF);
+	color: var(--COLOR_BLUE_PRF);
+	border-radius: 50%;
 	cursor: pointer;
 }
 
 .ball-item-holder .ball-item.active {
-	background: #575757;
 	border-radius: 50%;
-	color: white;
+	background: var(--COLOR_YELLOW_STR);	
+	color:  var(--COLOR_YELLOW_STR);
 }
 
 .ball-item-holder .ball-item:hover {
 	border-radius: 50%;
-	color: white;
+	background: white;
+	color: var(--COLOR_YELLOW_SOF);
 }
 
 .ball-item-holder a {
@@ -125,7 +132,7 @@ a.capitulo-link:hover {
 
 /* MENU */
 .btn-menu {
-	font-family: 'Bitter', serif;
+	/* font-family: 'Bitter', serif; */
 	line-height: 48px;
 	font-size: 20px;
 	letter-spacing: 0.05em;
@@ -133,6 +140,7 @@ a.capitulo-link:hover {
 	background-size: 170px 100%;
 	background-repeat: no-repeat;
 	overflow: inherit;
+	font-weight: bold;
 }
 
 .btn-menu:hover {
@@ -224,9 +232,10 @@ a.btn-menu {
 
 .header_titulo_modulo {
 	color: #575757;
-	font-size: 11pt;
+	font-size: 9pt;
 	line-height: 1.2em;
 	margin-top: 3px;
+	font-weight: 400;
 }
 
 .modulo_1 .btn-menu a:hover,
