@@ -609,6 +609,10 @@ var refresh_objects_listeners = function () {
         }
     });
 
+
+   
+
+
     // MATCHUP
     $.each($(".matchup"), function (index, element) {
         let open_cards      = [];
@@ -895,7 +899,7 @@ var refresh_objects_listeners = function () {
             $(choices_container[i]).text(round_answers[i]["Title"]);
         }
         return round_answers;
-    }
+    }    
 
     $.each($(".lss_quiz"), function (index, element) {
         let raw_database      = $(this).find("#database");
