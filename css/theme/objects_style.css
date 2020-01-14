@@ -14,65 +14,7 @@
 
 /* ACCORDION END */
 
-/* CITACAO START */
-.citacao {
-	background: var(--INVISIBLE);
-	border: 3px solid var(--THEME_COLOR_PRIMARY_STRONG);
-	border-radius: 10px 10px 10px 10px;
-	max-width: 600px;
-}
 
-.citacao p {
-	color: var(--THEME_FONT_COLOR);
-	padding: 20px 40px 5px 40px;
-	text-align: left;
-	font-weight: 400;
-}
-
-.citacao img:first-child {
-	position: absolute;
-	top: -30px;
-	left: -19px;
-}
-.citacao img:last-child {
-	position: absolute;
-	bottom: -45px;
-	right: -18px;
-}
-/* CITACAO END */
-
-/* DESTAQUE START */
-.destaque {
-	background: var(--INVISIBLE);
-	border: 3px solid var(--THEME_COLOR_PRIMARY_STRONG);
-	border-radius: 10px 10px 10px 10px;
-	max-width: 600px;
-}
-
-.destaque p {
-	color: var(--THEME_FONT_COLOR);
-	padding: 20px 40px 5px 40px;
-	text-align: left;
-	font-weight: 400;
-}
-
-.destaque img:first-child {
-	position: absolute;
-	width: 36px;
-	top: -19px;
-	left: -19px;
-}
-.destaque img:last-child {
-	position: absolute;
-	width: 36px;
-	bottom: -17px;
-	right: -18px;
-	-ms-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-
-/* DESTAQUE END */
 
 /* FLIP-CARD START */
 .flip-card-container {
@@ -729,87 +671,90 @@ ul {
 }
 /* PUZZLE END */
 
-/* SAIBA MAIS START */
 
-.saiba-mais,
-.case,
-.reflexao,
-.glossario {
-	width: 100%;
-	height: auto;
-	padding-top: 70px;
+
+
+.box-dtq {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 52px;
+  /* background: yellow; */
 }
-.saiba-mais {
-	background: url(../../assets/images/identity/resources/mais.png) top left no-repeat;
-}
-.case {
-	background: url(../../assets/images/identity/resources/case.png) top left no-repeat;
-}
-.reflexao {
-	background: url(../../assets/images/identity/resources/reflexao.png) top left no-repeat;
-}
-.glossario {
-	background: url(../../assets/images/identity/resources/glossario.png) top left no-repeat;
+.box-dtq h5 {
+  text-align: center;
 }
 
-.saiba-mais p,
-.case p,
-.reflexao p,
-.glossario p {
-	margin: 0;
-	text-align: justify;
-}
-.saiba-mais .bgl,
-.saiba-mais .bgr,
-.case .bgl,
-.case .bgr,
-.reflexao .bgl,
-.reflexao .bgr,
-.glossario .bgl,
-.glossario .bgr {
-	width: 100%;
-	height: auto;
-}
-.saiba-mais .bgl,
-.case .bgl,
-.reflexao .bgl,
-.glossario .bgl {
-	background: url(../../assets/images/identity/resources/mais-left-bottom.png) bottom left
-		no-repeat;
-}
-.saiba-mais .bgr,
-.case .bgr,
-.reflexao .bgr,
-.glossario .bgr {
-	background: url(../../assets/images/identity/resources/mais-right-top.png) top right
-		no-repeat;
-	padding: 10px 15px;
+.box-dtq img{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right: 0;
+  top:-52px;
+  border-radius: 100%;
 }
 
-.saiba-mais a,
-.case a,
-.reflexao a,
-.glossario a {
-	color: var(--THEME_COLOR_LINK) !important;
+.box-dtq div{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 2px solid #282E56 ;
+
+  padding: 15px;
+  padding-top: 60px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
-.copyright {
-	position: relative;
-	background: var(--THEME_COLOR_QUARTIARY);
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-.copyright p {
-	color: white;
-}
-.icon-touch {
-	position: absolute;
-	z-index: 1;
-	top: 30px;
-	right: 10px;
-}
+
 
 /* SAIBA MAIS END */
+
+/* destaque-prf */
+
+.dtq-prf {
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+	/* background: #f1f1f1; */
+	padding: 30px;
+	border-bottom-right-radius: 30px;
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG) ;
+
+}
+
+.dtq-prf .icon {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	border-radius: 100%;
+	top: -40px;
+	left: -40px;
+	/* background: burlywood; */
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+
+}
+
+.dtq-prf .txt {
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	border-radius: 6px;
+	top: -15px;
+	right: 20px;
+	background: white;
+	border: 2px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+/* destaque-prf end */
+
+
+
+
 
 /* SPLIT CAROUSEL START */
 .text-item.not-active{

@@ -76,7 +76,7 @@ $(document).ready(function () {
             let new_li_a = $(new_li_item).find(".linker");
 
 
-            $(new_ball_a).text(i + 1);
+            $(new_ball_a).text('');
             $(new_li_a).text(pages[i]["placeholder"]);
             $(ball_holder).append(new_ball_item);
             $(target_selector).append(new_li_item);

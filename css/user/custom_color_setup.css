@@ -2,14 +2,22 @@
 	--DNIT_COLOR_PRIMARY_STRONG:        #0072b3;
 	--DNIT_COLOR_PRIMARY:               #36a9e1;
 	--DNIT_COLOR_AUX_STRONG:            #3c3c3b;
-    --DNIT_COLOR_AUX:                   #706f6f;
-    --DNIT_FONT_COLOR:                  #191919;
+	--DNIT_COLOR_AUX:                   #706f6f;
+	--COLOR_YELLOW_STR:                 #FECC2E;
+	--COLOR_YELLOW_MED:                 #FFE596;
+	--COLOR_YELLOW_SOF:                 #FFFAD2;
+	--COLOR_BLUE_PRF: 					#282E56;
+	
+	--DNIT_FONT_COLOR:                  #191919;
+	--PRF_FONT_COLOR: 				    #222222;
     
     
-	--DNIT_COLOR_MODULE_ONE_STRONG:     	#dcab00;
-	--DNIT_COLOR_MODULE_ONE_LIGHT:    		#fee9b6;
-	--DNIT_COLOR_MODULE_ONE_SUPER_LIGHT:  	#fff4db;
-	--DNIT_COLOR_MODULE_ONE:            	#fdc62f;
+	--DNIT_COLOR_MODULE_ONE_STRONG:     	#282E56;
+	--DNIT_COLOR_MODULE_ONE_LIGHT:    		#FFE596;
+	--DNIT_COLOR_MODULE_ONE_SUPER_LIGHT:  	#FFFAD2;
+	--DNIT_COLOR_MODULE_ONE:            	#FECC2E;
+	--PRF_COLOR_MODULE_ONE:              	#FECC2E;
+	--PRF_COLOR_MODULE_SOF: 				rgb(101, 147, 207);
 	
 	--DNIT_COLOR_MODULE_TWO_STRONG:     	#79952a;
 	--DNIT_COLOR_MODULE_TWO_LIGHT:    		#d6e7b1;
