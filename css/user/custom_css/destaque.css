@@ -196,6 +196,31 @@ span.gls{
 }
 
 
+/* saiba mais */
+.na-pratica {
+    position: relative;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 2px;
+}
+.na-pratica .in {
+    background-color: #dee8f7;
+}
+.na-pratica .txt{
+    color: #005ca8;
+}
+.na-pratica .icon {
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+.na-pratica .bar-top-v, 
+.na-pratica .bar-top-h, 
+.na-pratica .bar-bottom-h, 
+.na-pratica .bar-bottom-v{
+    background-color: #005ca8;
+}
+
 
 
 /* destaque */

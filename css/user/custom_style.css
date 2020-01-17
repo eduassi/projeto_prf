@@ -124,6 +124,11 @@ ul.list-bullet{
   margin-left: 20px;
 }
 
+ul.list-bullet-black{  
+  list-style-image: url('../../assets/images/identity/resources/bullet-black.png'); 
+  margin-left: 20px;
+}
+
 .modulo_1 a {
   text-decoration: underline;
 }
