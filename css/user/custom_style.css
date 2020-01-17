@@ -493,6 +493,21 @@ ul.list-bullet{
   border: solid 1pt var(--DNIT_COLOR_MODULE_ONE_STRONG);
 }
 
+.aos-rw{
+  position:relative; 
+  width: 100%; 
+}
+.aos-rm{
+  position:relative; 
+}
+.aos-pa{
+  position:absolute; 
+  width: 100%;   
+  top: 0; 
+  left:0;
+}
+
+
 
 
 @-webkit-keyframes lss-progress-bar-stripes {
