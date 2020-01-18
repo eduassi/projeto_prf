@@ -975,3 +975,14 @@ ul {
 }
 
 /* ALMOST PIXAR STUDIO ANIMATOR END */
+
+
+ul.lower-latin{
+	list-style-type: lower-latin !important;
+	padding-left: 20px;
+}
+  
+ul.normal-disc{
+	list-style-type: disc !important;
+	padding-left: 20px;
+}
