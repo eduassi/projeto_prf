@@ -192,6 +192,7 @@ ul.list-bullet-black{
   background: var(--INVISIBLE);
   border: 2pt solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
   color: var(--DNIT_COLOR_MODULE_ONE_STRONG);
+  font-size: 16px;
 }
 
 .modulo_1 .split_button.active {
@@ -201,7 +202,7 @@ ul.list-bullet-black{
 .modulo_1 .split_text_box {
   background: var(--INVISIBLE);
   border: 3pt solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
-  padding: 30px !important;
+  padding: 15px !important;
 }
 
 .modulo_1 .jesus_slider_no_arrow .slide_ball {
@@ -569,3 +570,26 @@ ul.list-bullet-black{
   color: white;
 }
 
+@media (max-width: 991px) {
+
+  .modulo_1 .split_button {
+    font-size: 15px;
+    margin: auto;
+  }
+
+  .split_text_box{
+    margin-top:30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .modulo_1 .split_button {
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .split_text_box{
+    margin-top:30px;
+  }
+}

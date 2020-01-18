@@ -796,10 +796,6 @@ ul {
 
 @media (max-width: 767px) 
 {
-  .split_button{
-      height: 100px;
-      width: 100px;
-  }
   .split_text_box{
       padding: 5px !important;
   }
