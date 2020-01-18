@@ -144,6 +144,7 @@ ul.list-bullet-black{
 
 .modulo_1 a {
   text-decoration: underline;
+  word-break: break-all;
 }
 
 .modulo_1 .bg-secondary {

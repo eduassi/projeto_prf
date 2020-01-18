@@ -1,0 +1,64 @@
+[
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section class=\"container\"> <div class=\"row\"> <div class=\"col-md-10 mx-auto\">$TM_SELECTED_TEXT</div></div></section>"
+        }
+    },{
+        "key": "ctrl+b",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<b>$TM_SELECTED_TEXT</b>"
+        }
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<em>$TM_SELECTED_TEXT</em>"
+        }
+    },
+    {
+        "key": "ctrl+p",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<p>$TM_SELECTED_TEXT</p>"
+        }
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<a target=\"_blank\" href=\"$TM_SELECTED_TEXT\">$TM_SELECTED_TEXT</a>"
+        }
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section class='container mt-5'> <div class='row'> <div class='col-md-12'> <img class='img-fluid intro-image' data-aos='fade-right' src='assets/images/content/shutterstock_1089159797.jpg'/> <div class='lettering' data-aos='zoom-out-left' data-aos-delay='300'>$TM_SELECTED_TEXT</div></div></div></section>"
+        }
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section class='container mt-5'> <div class='row'> <div class='col-12'> <div class='box-gray' data-aos='fade-up'> <h3>TITLE</h3> $TM_SELECTED_TEXT</div></div></div></section>"
+        }
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<section class='container mt-5'> <div class='row'> <div class='col-lg-4 d-flex align-items-center'> <h1 class='' data-aos='fade-right' data-aos-delay='0'> TITLE </h1> </div><div class='col-lg-8'> <p data-aos='fade-left' data-aos-delay='200'> $TM_SELECTED_TEXT </p></div></div></section>"
+        }
+    },
+    {
+        "key": "ctrl+h",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "<h2 class='txt-ctr txt-up has-color-6'>$TM_SELECTED_TEXT</h2>"
+        }
+    }
+]
