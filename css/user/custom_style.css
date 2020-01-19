@@ -512,3 +512,10 @@ ul.list-bullet{
     background-position: 30px 0;
   }
 }
+
+
+
+video {
+  width: 100%;
+  height: auto;
+}
