@@ -638,3 +638,16 @@ ul.nav-tabs{
   margin:0;
   padding:0;
 }
+
+
+/* lista ul ol */
+
+ol.list-roman{
+  /* list-style-type: upper-roman; */
+  list-style-type: lower-roman;
+  padding-left:25px;
+}
+
+ol.list-roman li{
+  margin-top: 25px;
+}
