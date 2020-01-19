@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 4",
     "modulo-resumido": "M4",
-    "modulo-nome": "Legislação de trânsito aplicada à atividade do policial rodoviário federal"
+    "modulo-nome": "Regras e Infrações relacionadas ao Condutor e ao Veículo"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -34,12 +34,12 @@
     }
     ,
     {
-      "placeholder": "Fechamenta do Módulo",
+      "placeholder": "Fechamento do Módulo",
       "url": "pages/capitulo_5.html"
     }
     ,
     {
-      "placeholder": "Realize a atividade",
+      "placeholder": "Realize as atividades",
       "url": "pages/capitulo_6.html"
     },
     {
