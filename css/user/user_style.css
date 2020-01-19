@@ -154,14 +154,14 @@
 
 .carousel-control-next-icon {
   content: "";
-  background-image: url(../../assets/images/module_1/resources/forward_bt.png);
+  background-image: url(../../assets/images/identity/resources/arrow-black-right.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .carousel-control-prev-icon {
   content: "";
-  background-image: url(../../assets/images/module_1/resources/backard_bt.png);
+  background-image: url(../../assets/images/identity/resources/arrow-black-left.png);
   background-repeat: no-repeat;
   background-position: center;
 }
