@@ -839,15 +839,15 @@ ul {
 
 /* TABS START */
 
-.tab-content{
-  background-color: var(--THEME_COLOR_QUINTIARY);
-  padding: 20px;
-}
 
-.nav-item>a.active{
-  background-color: var(--THEME_COLOR_QUINTIARY) !important;
-  border-bottom-color: var(--THEME_COLOR_QUINTIARY) !important;
-}
+
+
+
+/* .nav-item > a.active {
+    background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
+    border-bottom-color: var(--THEME_COLOR_MODULE_ONE_LIGHT) !important;
+    color: white !important;
+} */
 
 .nav-item>a:hover{
   background-color: var(--THEME_COLOR_QUINTIARY) !important;
