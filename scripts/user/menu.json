@@ -34,16 +34,16 @@
     }
     ,
     {
-      "placeholder": "Realize a atividade",
+      "placeholder": "Fechamenta do Módulo",
       "url": "pages/capitulo_5.html"
     }
     ,
     {
-      "placeholder": "Referências",
+      "placeholder": "Realize a atividade",
       "url": "pages/capitulo_6.html"
     },
     {
-      "placeholder": "Apresentação",
+      "placeholder": "Referências",
       "url": "pages/capitulo_7.html"
     }
   ]
