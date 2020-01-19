@@ -473,9 +473,9 @@ var refresh_objects_listeners = function () {
             });
         });
     });
-
     // JESUS SLIDER NO ARROW IMAGE BACKGROUND
     $.each($(".jesus_slider_no_arrow_image_background"), function (index, element) {
+        
         let current = 0;
         let buttons = $(this).find(".slide_ball");
         let ball_items = $(this).find(".jesus-set");

@@ -88,7 +88,7 @@ $(document).ready(function () {
         current_active_ball_item = ball_items[current_level];
 
         // START PROPELLER
-        $().pmdSidebar();
+        try{$().pmdSidebar()}catch(e){};
 
         // GIVE LISTENER
         $.each($(".linker"), function (index, element) {
