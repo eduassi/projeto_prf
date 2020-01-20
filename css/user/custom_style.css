@@ -593,3 +593,8 @@ ul.list-bullet-black{
     margin-top:30px;
   }
 }
+
+
+.tabs .nav-tabs{
+  margin-bottom: 0px !important;
+}
