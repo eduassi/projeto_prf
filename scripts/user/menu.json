@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 4",
-    "modulo-resumido": "M4",
-    "modulo-nome": "Regras e Infrações relacionadas ao Condutor e ao Veículo"
+    "modulo-numero": "MÓDULO 5",
+    "modulo-resumido": "M5",
+    "modulo-nome": "Tipos infracionais e aplicação prática"
   },
   "configuration": {
     "target": "#menu_item_list",
