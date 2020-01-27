@@ -171,6 +171,7 @@ var refresh_objects_listeners = function () {
         let active_text_box = $(text_box).find("#ventanita-placeholder");
         let button_collection = $(this).find(".ventanita-show");
 
+        set_same_height_collection($(this).find(".ventana"));
 		$.each(button_collection, function(default_index, button) {
             let target_id = "#" + button.getAttribute("data-turnon");
 			let default_id = text_items[default_index + 1];
