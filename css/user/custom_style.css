@@ -645,6 +645,10 @@ ol.list-roman{
   padding-left:25px;
 }
 
+ol.upper{
+  list-style-type: upper-roman;
+}
+
 ol.list-roman li{
   margin-top: 25px;
 }
