@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "Introdução à gestão pública e competências institucionais"
+    "modulo-numero": "MÓDULO 2",
+    "modulo-resumido": "M2",
+    "modulo-nome": "Legislação de trânsito aplicada à atividade do policial rodoviário federal"
   },
   "configuration": {
     "target": "#menu_item_list",
