@@ -220,3 +220,13 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+.quadro{
+    width: 100%;
+    min-height: 120px;
+    padding: 20px;
+    margin: 30px 0;
+    background: var(--PRF_BG_BLUE_3);
+    border: 3px var(--PRF_BG_BLUE_1) solid;
+}
+
