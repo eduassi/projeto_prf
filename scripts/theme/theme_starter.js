@@ -44,3 +44,8 @@ var load_page = function(url,callback) {
 var openUrl = function (link) {
     window.open(link, "_blank"); 
 };
+
+var hide = function (_element) {
+    $(".mask-"+_element).hide(); 
+};
+
