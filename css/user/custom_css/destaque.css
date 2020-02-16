@@ -261,3 +261,31 @@ span.gls{
 
 
 
+.box-prf, .box-yellow-prf{
+    border: 2px solid var(--PRF_BG_BLUE_3);
+    background-color: var(--PRF_BG_BLUE_2);
+    border-radius:6px;
+    padding:15px;
+}
+.box-prf p, .box-prf ul, .box-prf ol{
+    padding:0;
+    margin:0;
+    color:white;
+}
+
+.box-yellow-prf{
+    border: 2px solid var(--COLOR_YELLOW_MED);
+    background-color: var(--COLOR_YELLOW_SOF);
+    border-radius:6px;
+    padding:15px;
+}
+
+.box-yellow-prf p, .box-yellow-prf ul, .box-yellow-prf ol{
+    padding:0;
+    margin:0;
+    color:var(--PRF_FONT_COLOR);
+}
+
+.box-yellow-prf ul li, .box-yellow-prf ol li{
+    margin-bottom: 20px;
+}
