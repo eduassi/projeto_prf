@@ -242,7 +242,7 @@ ul.list-bullet-black{
 }
 
 .modulo_1 .flipster_carousel_slide {
-  border: 2pt solid var(--DNIT_COLOR_MODULE_ONE);
+  /* border: 2pt solid var(--DNIT_COLOR_MODULE_ONE); */
 }
 
 .modulo_1 .flip-card-front {
