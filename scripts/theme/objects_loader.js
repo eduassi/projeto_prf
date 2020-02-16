@@ -610,7 +610,26 @@ var refresh_objects_listeners = function () {
     });
 
 
-   
+       // SPLIT LIST
+       $.each($(".split-list"), function () {
+        let button_set = $(this).find(".btn-ret").children();
+        let text_set = $(this).find(".sl-txt");
+        let current_active_button = $(button_set[0]);
+        let current_active_text = $(text_set[0]);
+
+        // INITIALIZATION
+        // current_active.addClass("active");
+        $.each(button_set, function (index) {
+            $(this).on("click", function () {
+                current_active_button.removeClass("active");
+                current_active_text.hide();
+                current_active_button = $(this);
+                current_active_text = $(text_set[index]);
+                current_active_button.addClass("active");
+                current_active_text.show();
+            });
+        });
+    });
 
 
     // MATCHUP
