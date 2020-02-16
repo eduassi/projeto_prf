@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 3",
     "modulo-resumido": "M3",
-    "modulo-nome": "Lorem ipsum dolor sit amet"
+    "modulo-nome": "Planejamento do trabalho"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -38,7 +38,7 @@
     }
     ,
     {
-      "placeholder": "Realize as atividades",
+      "placeholder": "Referências",
       "url": "pages/capitulo_6.html"
     }
   ]

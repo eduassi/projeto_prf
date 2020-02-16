@@ -222,6 +222,31 @@ span.gls{
 }
 
 
+/* leitura-complementar */
+.leitura-complementar {
+    position: relative;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 2px;
+}
+.leitura-complementar .in {
+    background-color: #ffe79e;
+}
+.leitura-complementar .txt{
+    color: #ffc000;
+}
+.leitura-complementar .icon {
+    position: absolute;
+    top: -70px;
+    left: 200px;
+}
+.leitura-complementar .bar-top-v, 
+.leitura-complementar .bar-top-h, 
+.leitura-complementar .bar-bottom-h, 
+.leitura-complementar .bar-bottom-v{
+    background-color: #ffc000;
+}
+
 
 /* destaque */
 .destaque {
