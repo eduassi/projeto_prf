@@ -12,13 +12,13 @@ body{
 	font-weight:  400;
 }
 
-a.box-dest{
-    background:#feb477 !important; 
-    color:#0000ff !important; 
-    font-weight: normal !important; 
-    border: 1px dashed #ff9741 !important;
+a.box-dest {
+    font-weight: bold !important;
+    color: var(--DNIT_COLOR_PRIMARY_STRONG) !important;
     cursor: pointer;
+    text-decoration: underline !important;
 }
+
 .nav-bar{
 	position: fixed;
 	z-index: 99;
