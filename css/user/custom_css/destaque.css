@@ -146,6 +146,33 @@ span.gls{
 }
 
 
+/* material complementar */
+
+.material-complementar {
+    position: relative;
+    padding: 0;
+    padding-top: 37px;
+    padding-left: 2px;
+}
+.material-complementar .in {
+    background-color: #ffeec6;
+}
+.material-complementar .txt{
+    color: #ffca3e;
+}
+.material-complementar .icon{
+    position: absolute;
+    top: -70px;
+    left: 200px;
+}
+.material-complementar .bar-top-v, 
+.material-complementar .bar-top-h, 
+.material-complementar .bar-bottom-h, 
+.material-complementar .bar-bottom-v{
+    background-color: #ffca3e;
+}
+
+
 /* glossário */
 .glossario {
     position: relative;
