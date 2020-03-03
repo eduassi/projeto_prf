@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 3",
-    "modulo-resumido": "M3",
-    "modulo-nome": "Planejamento do trabalho"
+    "modulo-numero": "MÓDULO 1",
+    "modulo-resumido": "M1",
+    "modulo-nome": "O que é Comando<br> e Controle"
   },
   "configuration": {
     "target": "#menu_item_list",
