@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "O que é Comando<br> e Controle"
+    "modulo-numero": "MÓDULO 2",
+    "modulo-resumido": "M2",
+    "modulo-nome": "Sistema de Comando e Controle na PRF"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -23,6 +23,16 @@
     {
       "placeholder": "Unidade 2",
       "url": "pages/capitulo_2.html"
+    },
+
+    {
+      "placeholder": "Unidade 3",
+      "url": "pages/capitulo_3.html"
+    },
+
+    {
+      "placeholder": "Unidade 4",
+      "url": "pages/capitulo_4.html"
     },
  
     {
