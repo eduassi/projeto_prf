@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 2",
     "modulo-resumido": "M2",
-    "modulo-nome": "Sistema de Comando e Controle na PRF"
+    "modulo-nome": "Sistema de Comando e<br> Controle na PRF"
   },
   "configuration": {
     "target": "#menu_item_list",
