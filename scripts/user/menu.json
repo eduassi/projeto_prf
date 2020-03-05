@@ -7,7 +7,7 @@
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 6,
+    "max-level": 5,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -31,18 +31,13 @@
     },
 
     {
-      "placeholder": "Unidade 4",
+      "placeholder": "Encerramento do módulo",
       "url": "pages/capitulo_4.html"
     },
  
     {
-      "placeholder": "Encerramento do módulo",
-      "url": "pages/capitulo_5.html"
-    },
-
-    {
       "placeholder": "Atividades",
-      "url": "pages/capitulo_6.html"
+      "url": "pages/capitulo_5.html"
     }
     
   ]
