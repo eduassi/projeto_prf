@@ -1007,7 +1007,8 @@ ul.normal-disc{
 	color:white;
 	text-align: center;
   }
-  
+
+ 
   @media screen and (max-width: 1199px) {
 	.split-list .ball-txt div{
 	  width: 150px;
@@ -1062,6 +1063,15 @@ ul.normal-disc{
 	margin-bottom: 5px;
 	line-height: 1.6rem;
 	text-align: center;
+
+
+	-moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   
   .split-list h3{

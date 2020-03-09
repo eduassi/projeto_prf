@@ -617,6 +617,7 @@ var refresh_objects_listeners = function () {
         let current_active_button = $(button_set[0]);
         let current_active_text = $(text_set[0]);
 
+        alert("SPLIT LIST")
         // INITIALIZATION
         // current_active.addClass("active");
         $.each(button_set, function (index) {
