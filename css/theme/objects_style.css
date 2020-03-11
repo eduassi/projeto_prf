@@ -201,6 +201,14 @@
 	display: inline-flex;
 	margin-left: 40%;
 }
+@media (max-width: 767px) 
+{
+	.jesus_slides {
+		white-space: nowrap;
+		display: inline-flex;
+		margin-left: 15%;
+	}
+}
 
 .jesus-set {
 	height: 6em;
@@ -836,6 +844,9 @@ ul {
   }
 }
 /* SPLIT CAROUSEL END */
+
+
+
 
 /* TABS START */
 
