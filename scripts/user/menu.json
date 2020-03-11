@@ -7,7 +7,7 @@
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 5,
+    "max-level": 6,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -38,6 +38,10 @@
     {
       "placeholder": "Atividades",
       "url": "pages/capitulo_5.html"
+    },
+    {
+      "placeholder": "Referências",
+      "url": "pages/capitulo_6.html"
     }
     
   ]
