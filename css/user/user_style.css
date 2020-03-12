@@ -220,3 +220,22 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+.officer p {
+  margin: 0;
+  padding: 0;
+
+}
+
+.officer1{
+  background-color: #b1b9d0
+
+}
+.officer2{
+  background-color: var(--PRF_BG_BLUE_3);
+
+}
+
+.officer1, .officer2 {
+  padding: 15px;
+}
