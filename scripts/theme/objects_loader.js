@@ -320,7 +320,7 @@ var refresh_objects_listeners = function () {
         let current = 0;
         let buttons = $(this).find(".split_button");
         let text_items = $(this).find(".text-item");
-
+        active_button = $(buttons[0]);
         for (let i = 0; i < buttons.length; i++) {
             $(buttons[i]).on("click", function () {
                 try { active_button.removeClass("active") } catch (e) { }

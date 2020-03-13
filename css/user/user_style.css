@@ -228,14 +228,74 @@
 }
 
 .officer1{
-  background-color: #b1b9d0
+  background-color: #b1b9d0 !important;
 
 }
 .officer2{
-  background-color: var(--PRF_BG_BLUE_3);
+  background-color: var(--PRF_BG_BLUE_3) !important;
 
 }
 
-.officer1, .officer2 {
+.officer .officer1, .officer .officer2 {
   padding: 15px;
 }
+
+a:link.officer-link {
+  text-decoration: none;
+}
+
+a:hover.officer-link p{
+  color: var(--COLOR_BLUE_PRF);
+}
+
+
+.officers_carousel .split_button.active {
+  background: #b1b9d0;
+}
+
+.officers_carousel .split_button {
+  background: var(--INVISIBLE);
+  border: 2pt solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
+  color: var(--DNIT_COLOR_MODULE_ONE_STRONG);
+  font-size: 19px;
+  padding: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .officers_carousel .split_button{
+    padding: 5px !important;
+  }
+  .officers_carousel .split_button p {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .officers_carousel .split_button{
+    padding: 1px !important;
+  }
+  .officers_carousel .split_button p {
+    font-size: 12px !important;
+  }
+
+}
+
+/* NOVOS************************ */
+
+.header_numero_modulo_resumido{
+  color: var(--PRF_BG_BLUE_3);
+}
+
+
+
+@media (max-width: 575.98px) {
+  body, p, ul, ol {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+}
+
+/* ***************************** */
