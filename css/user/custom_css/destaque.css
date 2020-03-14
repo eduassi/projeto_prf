@@ -284,5 +284,15 @@ span.gls{
     background-color: var(--COLOR_BLUE_PRF);
 }
 
-
+.box-prf, .box-yellow-prf{
+    border: 2px solid var(--PRF_BG_BLUE_3);
+    background-color: var(--PRF_BG_BLUE_2);
+    border-radius:6px;
+    padding:15px;
+}
+.box-prf p, .box-prf ul, .box-prf ol{
+    padding:0;
+    margin:0;
+    color:white;
+}
 

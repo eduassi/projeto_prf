@@ -2,12 +2,12 @@
   "information": {
     "modulo-numero": "MÓDULO 5",
     "modulo-resumido": "M5",
-    "modulo-nome": "Gestão da informação operacional"
+    "modulo-nome": "Comando e Controle"
   },
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 6,
+    "max-level": 5,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -31,17 +31,13 @@
     },
 
     {
-      "placeholder": "Encerramento do módulo",
+      "placeholder": "Considerações Finais",
       "url": "pages/capitulo_4.html"
     },
  
     {
-      "placeholder": "Atividades",
-      "url": "pages/capitulo_5.html"
-    },
-    {
       "placeholder": "Referências",
-      "url": "pages/capitulo_6.html"
+      "url": "pages/capitulo_5.html"
     }
     
   ]
