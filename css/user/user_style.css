@@ -288,14 +288,58 @@ a:hover.officer-link p{
 }
 
 
-
 @media (max-width: 575.98px) {
   body, p, ul, ol {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
   }
+  .modulo_1 h1, .modulo_2 h1, .modulo_3 h1, .modulo_4 h1 {
+    font-size: 21px;
+  }
+  .modulo_1 h2, .modulo_2 h2, .modulo_3 h2, .modulo_4 h2 {
+    font-size: 19px;
+  }
+  .h5, h5 {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+
+    font-size: 19px;
+    line-height: 24px;
+}
+
+  .tab-content {
+    padding: 5px;
+  }
 
 }
+
+@media (max-width: 360px) {
+  body, p, ul, ol {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .capitulos-header {
+    display: none;
+  }
+ 
+
+  .ball-item-holder{
+    display: none;
+  }
+}
+
+.logo-dnit-small{
+  padding: 5px;
+}
+
 
 /* ***************************** */

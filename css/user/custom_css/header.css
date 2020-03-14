@@ -163,9 +163,13 @@ a.capitulo-link:hover {
 	.btn-menu::after {
 		min-height: 60px;
 	}
-	.capitulos-header {
+
+	/* novo */
+	/* .capitulos-header {
 		display: none;
-	}
+	} */
+
+
 	.logo-pdf{
 		max-width: 40px;
 		margin-right: 10px;
@@ -188,11 +192,12 @@ a.capitulo-link:hover {
 	}
 }
 
-@media screen and (max-width: 375px) {
+/* novo */
+/* @media screen and (max-width: 375px) {
 	.chapter-display {
 		display: none;
 	}
-}
+} */
 
 a.btn-menu {
 	text-decoration: none !important;
