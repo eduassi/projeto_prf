@@ -124,6 +124,11 @@
     width: 33vw;
     left: -15.1vw;
   }
+
+  /* novo */
+  .chapter-display{
+    display:none;
+  }
 }
 
 .region_table {
