@@ -132,7 +132,6 @@ var change_scroll_position_by_top_object = function(element,offset_top,margin_to
 
 
 var refresh_objects_listeners = function () {
-    
     //SETUP
     var aps = new APS();
 
