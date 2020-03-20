@@ -551,6 +551,7 @@ var refresh_objects_listeners = function () {
     // FLIPSTER CAROUSEL SLIDER
     $.each($(".flipster_carousel_slider"), function (index, element) {
         let current = 0;
+        let current_fog = $(this).find(".flipster_carousel-head").find(".fog");
         let flipster_items = $(this).find(".flipster_carousel-set");
         let flipster_len = flipster_items.length;
         let flipster_head = $(this).find(".flipster_carousel-head");
@@ -562,46 +563,52 @@ var refresh_objects_listeners = function () {
             $(this).css("zIndex", new_z);
         });
 
-        flipster_items.on("click", function () {
+        flipster_items.on("click", function (event) {
             let order = $(this).attr("order");
-            let this_obj = $(flipster_items[current]);
-            let next_obj = $(flipster_items[order]);
-            let jump_offset = order - current;
-            let margin_offset = parseInt(flipster_head.css("margin-left")) - (margin_rate) * jump_offset;
-            let right_iterator = Number(order);
-            let left_iterator = Number(order);
-            current = order;
+            if (current != order) {
+                current_fog.show();
+                current_fog = $(this).find(".fog");
+                current_fog.hide();
+                let this_obj = $(flipster_items[current]);
+                let next_obj = $(flipster_items[order]);
+                let jump_offset = order - current;
+                let margin_offset = parseInt(flipster_head.css("margin-left")) - (margin_rate) * jump_offset;
+                let right_iterator = Number(order);
+                let left_iterator = Number(order);
+                current = order;
 
-            while (right_iterator < flipster_len) {
-                let itr_obj = $(flipster_items[right_iterator]);
-                let new_z = flipster_len - right_iterator;
-                itr_obj.css("zIndex", new_z);
-                itr_obj.removeClass("flip-right");
-                itr_obj.addClass("flip-left");
-                right_iterator++;
+                while (right_iterator < flipster_len) {
+                    let itr_obj = $(flipster_items[right_iterator]);
+                    let new_z = flipster_len - right_iterator;
+                    itr_obj.css("zIndex", new_z);
+                    itr_obj.removeClass("flip-right");
+                    itr_obj.addClass("flip-left");
+                    right_iterator++;
+                }
+
+                while (left_iterator >= 0) {
+                    let itr_obj = $(flipster_items[left_iterator]);
+                    let new_z = left_iterator;
+                    itr_obj.css("zIndex", new_z);
+                    itr_obj.removeClass("flip-left");
+                    itr_obj.addClass("flip-right");
+                    left_iterator--;
+                }
+
+                next_obj.removeClass("flip-left");
+                next_obj.removeClass("flip-right");
+                next_obj.css("zIndex", flipster_len);
+                margin_offset += "px";
+                flipster_head.animate({
+                    marginLeft: margin_offset
+                });
             }
-
-            while (left_iterator >= 0) {
-                let itr_obj = $(flipster_items[left_iterator]);
-                let new_z = left_iterator;
-                itr_obj.css("zIndex", new_z);
-                itr_obj.removeClass("flip-left");
-                itr_obj.addClass("flip-right");
-                left_iterator--;
-            }
-
-            next_obj.removeClass("flip-left");
-            next_obj.removeClass("flip-right");
-            next_obj.css("zIndex", flipster_len);
-            margin_offset += "px";
-            flipster_head.animate({
-                marginLeft: margin_offset
-            });
         });
     });
 
     // FLIP CARD
     $(".flip-card").on("click", function () {
+        console.log("OK")
         if ($(this).hasClass("rotate")) {
             $(this).removeClass("rotate");
         } else {

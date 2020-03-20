@@ -143,6 +143,10 @@
   border: 0px;
   background-color: var(--INVISIBLE);
 }
+
+.flipster_carousel_slide .flip-card {
+  padding: 15px;
+}
 .fog {
   position: absolute;
   top: 0;
