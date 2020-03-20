@@ -68,6 +68,15 @@
   background: var(--DNIT_COLOR_MODULE_ONE);
 }
 
+
+/* novo */
+@media only screen and (max-width: 991px){
+  .header_numero_modulo_resumido {
+    color: #7582aa !important;
+  }
+}
+
+
 @media only screen and (max-width: 719px) {
   .modulo_1 .animation-screen {
     position: relative;
@@ -123,6 +132,11 @@
   .modulo_1 #julia_responde {
     width: 33vw;
     left: -15.1vw;
+  }
+
+  /* novo */
+  .chapter-display{
+    display:none;
   }
 }
 
