@@ -124,6 +124,9 @@
     width: 33vw;
     left: -15.1vw;
   }
+  .capitulos-header{
+    display: none;
+  }
 }
 
 .region_table {

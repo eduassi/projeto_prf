@@ -2,7 +2,7 @@
   "information": {
     "modulo-numero": "MÓDULO 5",
     "modulo-resumido": "M5",
-    "modulo-nome": "Comando e Controle"
+    "modulo-nome": "Tratamento de eventos de<br>monitoramento e incidentes "
   },
   "configuration": {
     "target": "#menu_item_list",
