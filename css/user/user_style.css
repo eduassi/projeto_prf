@@ -134,43 +134,43 @@
   width: 80vw;
 }
 
-.carousel {
-  padding: 50px;
-  border-radius: 15px;
-  border: 1px solid var(--DNIT_COLOR_MODULE_ONE);
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
-  outline: black;
-  background: white;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid var(--DNIT_COLOR_MODULE_ONE_STRONG);
-  background-image: none;
-}
-
-.carousel-control-next-icon {
-  content: "";
-  background-image: url(../../assets/images/module_1/resources/forward_bt.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.carousel-control-prev-icon {
-  content: "";
-  background-image: url(../../assets/images/module_1/resources/backard_bt.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/* NOVO */
+  /* carousel slider */
+  .carousel {
+    padding: 50px;
+    border-radius: 15px;
+    border: 2px solid var(--DNIT_COLOR_MODULE_ONE);
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background: white;
+    border: 2pt solid var(--DNIT_COLOR_MODULE_ONE);
+    border-radius: 50%;
+  }
+  .carousel-control-next-icon {
+    content: "";
+    background-image: url(../../assets/images/identity/resources/arrow-black-right.png);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .carousel-control-prev-icon {
+    content: "";
+    background-image: url(../../assets/images/identity/resources/arrow-black-left.png);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
 .carousel-inner {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* FECHA CAROUSEL */
 
 .carousel-control-next,
 .carousel-control-prev {
