@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 3",
-    "modulo-resumido": "M3",
-    "modulo-nome": "Centros de Comando e Controle Integrados"
+    "modulo-numero": "MÓDULO 1",
+    "modulo-resumido": "M1",
+    "modulo-nome": "Termo Circunstanciado de Ocorrência (TCO) e Boletim de Ocorrência Circunstanciado (BOC)"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -31,12 +31,12 @@
     },
 
     {
-      "placeholder": "Encerramento do módulo",
+      "placeholder": "Considerações Finais",
       "url": "pages/capitulo_4.html"
     },
  
     {
-      "placeholder": "Atividades",
+      "placeholder": "Referências",
       "url": "pages/capitulo_5.html"
     }
     
