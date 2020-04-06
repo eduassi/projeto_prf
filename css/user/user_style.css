@@ -70,6 +70,13 @@
 
 
 /* novo */
+.flip-card-wide{
+  width: 420px;
+  height: 280px;
+  margin: auto;
+}
+
+/* novo */
 @media only screen and (max-width: 991px){
   .header_numero_modulo_resumido {
     color: #7582aa !important;
@@ -78,6 +85,7 @@
 
 
 @media only screen and (max-width: 719px) {
+  
   .modulo_1 .animation-screen {
     position: relative;
     width: 100%;
@@ -125,6 +133,12 @@
   }
 }
 @media only screen and (max-width: 575px) {
+  /* novo */
+  .flip-card-wide{
+    width: 280px;
+    height: 420px;
+    margin: auto;
+  }
   .modulo_1 #julia_waiting {
     width: 33vw;
     left: -15.1vw;
@@ -233,3 +247,5 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+
