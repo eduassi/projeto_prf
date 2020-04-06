@@ -233,3 +233,13 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+.flip-card-wide{
+  width: 420px;
+  height: 280px;
+  margin: auto;
+}
+.flip-card-wide{
+  width: 280px;
+  height: 420px;
+  margin: auto;
+}
