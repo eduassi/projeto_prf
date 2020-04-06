@@ -1,7 +1,7 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
+    "modulo-numero": "MÓDULO 2",
+    "modulo-resumido": "M2",
     "modulo-nome": "Termo Circunstanciado de Ocorrência (TCO) e Boletim de Ocorrência Circunstanciado (BOC)"
   },
   "configuration": {
@@ -31,7 +31,7 @@
     },
 
     {
-      "placeholder": "Considerações Finais",
+      "placeholder": "Fechamento Do Módulo",
       "url": "pages/capitulo_4.html"
     },
  
