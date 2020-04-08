@@ -207,7 +207,7 @@ span.gls{
 }
 
 
-/* saiba mais */
+/* na-pratica */
 .na-pratica {
     position: relative;
     padding: 0;
@@ -231,6 +231,32 @@ span.gls{
 .na-pratica .bar-bottom-v{
     background-color: #005ca8;
 }
+
+/* material-complementar */
+.material-complementar {
+    position: relative;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 2px;
+}
+.material-complementar .in {
+    background-color: #dee8f7;
+}
+.material-complementar .txt{
+    color: #005ca8;
+}
+.material-complementar .icon {
+    position: absolute;
+    top: -70px;
+    left: 210px;
+}
+.material-complementar .bar-top-v, 
+.material-complementar .bar-top-h, 
+.material-complementar .bar-bottom-h, 
+.material-complementar .bar-bottom-v{
+    background-color: #005ca8;
+}
+
 
 
 /* leitura-complementar */
