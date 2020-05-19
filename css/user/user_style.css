@@ -257,3 +257,16 @@
   height: 420px;
   margin: auto;
 }
+
+
+a.box-dest {
+  background: none !important;
+  color: #0000ff !important;
+  font-weight: normal !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+a.box-dest:hover {
+  text-decoration: #0000ff;
+}
