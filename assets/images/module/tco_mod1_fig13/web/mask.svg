@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="563px" height="286px" viewBox="0 0 563 286" enable-background="new 0 0 563 286" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="563px" height="518px" viewBox="0 0 563 286" enable-background="new 0 0 563 286" xml:space="preserve">
   <style>
 .mask_item{
   cursor: pointer;
 }
 </style>
-  <rect class="mask_item" id="mask_img_oralidade" onclick="window.parent.showMore(this)" y="162.75" fill="#00000000" width="140" height="123" />
-  <rect class="mask_item" id="mask_img_celeridade" onclick="window.parent.showMore(this)" x="423" y="162.75" fill="#00000000" width="140" height="123" />
-  <rect class="mask_item" id="mask_img_economia_processual" onclick="window.parent.showMore(this)" x="423" y="-0.25" fill="#00000000" width="140" height="123.001" />
-  <rect class="mask_item" id="mask_img_informalidade" onclick="window.parent.showMore(this)" fill="#00000000" width="140" height="123" />
+
+<rect class="mask_item" id="mask_img_simplicidade" onclick="window.parent.showMore(this)" x="210"  y="-115" fill="#00000000" width="140" height="123" />
+
+  <rect class="mask_item" id="mask_img_oralidade" onclick="window.parent.showMore(this)" y="36" fill="#0000ff00" width="140" height="123" />
+
+  <rect class="mask_item" id="mask_img_celeridade" onclick="window.parent.showMore(this)" x="84" y="280" fill="#ff550000" width="140" height="123" />
+
+  <rect class="mask_item" id="mask_img_economia_processual" onclick="window.parent.showMore(this)" x="340" y="280" fill="#ff000000" width="140" height="123.001" />
+
+  <rect class="mask_item" id="mask_img_informalidade" onclick="window.parent.showMore(this)" x="423" y="34" fill="#00ff0000" width="140" height="123" />
+
 </svg>
