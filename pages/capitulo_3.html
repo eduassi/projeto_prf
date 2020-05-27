@@ -177,7 +177,16 @@
 
 <section class="container mt-3">
   <div class="row">
-    <div class="col-10 mx-auto">
+    <div class="col-10 mx-auto d-none d-lg-block">
+      <embed 
+        id="mapa-brasil"
+        style="width:100%"
+        type="image/svg+xml"
+        src="assets/map.svg"
+      />
+    </div>
+
+    <div class="col-10 mx-auto d-block d-lg-none">
 
             <h5 class="mb-0">1. ACRE</h5>
 
@@ -364,6 +373,14 @@
 </section>
 
 
+
+
+
+
+
+
+
+
 <section class="container mt-5">
   <div class="row">
     <div class="col-md-8 mx-auto">
@@ -535,3 +552,549 @@
     </div>
   </div>
 </section>
+
+
+<script>
+  var mapaBotaoAcao = function(param){
+    let estados = $(param).find(".estado-botao");
+
+    $.each(estados,function(index,element){
+      $(element).on("click",function(){
+        let self = this;
+        let self_id = $(self).attr("id");
+        console.log(self_id)
+
+        $('#'+self_id).modal('show');
+
+      })
+    });
+  }
+</script>
+
+
+<!-- MODAIS UF -->
+<div class="modal fade" id="AC">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">1. ACRE</h5>
+         
+        <p class="mb-0">
+          TCT s/n - MPE X SPRF-AC/RO, 01/10/2013.<br>
+                    <b>Quantitativo de TCOs: 81</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="AL">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">2. ALAGOAS</h5>
+         
+        <p class="mb-0">Provimento nº 13/2007 – TJAL.<br>
+          Provimento nº 11/2014 – TJAL – Revoga o provimento nº 13/2007.<br>
+          Provimento nº 51/2016.<br>
+          <b>Quantitativo de TCOs: 181</b>.
+        </p> 
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="AM">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">3. AMAZONAS</h5>
+         
+        <p class="mb-0">
+          Termo de Cooperação Técnica nº 002/2015 – SRPRF-AM X MPF<br>
+          <b>Não foi implementado</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="AP">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">4. AMAPÁ</h5>
+         
+        <p class="mb-0">
+          TCT nº 007/2015 – SRPRF-AP X TJAP X MPE-AP – 12/08/2015;<br>
+                    <b>Quantitativo de TCOs: 51</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="BA">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">5. BAHIA</h5>
+         
+        <p class="mb-0">
+          Termo de Convênio nº 01/2015 – MPE-BA X SRPRF-BA – 22/04/2015.<br>
+                    <b>Quantitativo de TCOs: 722</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="CE">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">6. CEARA</h5>
+         
+        <p class="mb-0">
+          Acordo de Cooperação Técnica –ACT s/nº - SPRF-CE X MPE-CE – 30/01/2013.<br>
+                    <b>Quantitativo de TCOs: 384</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="DF">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">7. DISTRITO FEDERAL</h5>
+         
+        <p class="mb-0">
+          TCT nº 09/2012 – MPE-GO X SRPRF-GO X SRPRF-DF – 1º/10/2012.<br>
+                    Termo Aditivo nº 01/2017 – 10/07/2017.<br>
+                    Provimento nº 11/2017, 1º/06/2017 – TJDF.<br>
+                    <b>Quantitativo de TCOs: 349</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ES">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">8. ESPÍRIO SANTO</h5>
+         
+        <p class="mb-0">
+          Ato Conjunto nº 003/2008, 26/11/2008 – Corregedor-Geral e Procurador-Geral de Justiça do MPE-ES.<br>
+                    <b>Quantitativo de TCOs: 7.467</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="GO">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">9. GOIÁS</h5>
+         
+        <p class="mb-0">
+          TCT nº 09/2012 – MPE-GO X SRPRF-GO X SRPRF-DF – 1º/10/2012.<br>
+                    Termo Aditivo nº 01/2017 – 10/07/2017.<br>
+                    <b>Quantitativo de TCOs: 2.220</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="MA">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">10. MARANHÃO</h5>
+         
+        <p class="mb-0">
+          Parecer nº 719/2010 – TJMA – DESFAVORÁVEL.<br>
+                    Lavra do Sr. Gustavo Luís de Moura Chagas – Assessor Jurídico da Presidência.<br>
+                    Presidente do TJMA – Des. Jamil de Miranda Gedeon Neto.<br>
+                    <b>Não foi implementado</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="MG">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">11. MINAS GERAIS</h5>
+         
+        <p class="mb-0">
+          TCT nº 45/2015 SRPRF-MG X MPE-MG, 30/04/2015.<br>
+                    <b>Quantitativo de TCOs: 1.857</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="MS">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">12. MATO GROSSO DO SUL</h5>
+         
+        <p class="mb-0">
+          Provimento nº 148/2016 TJMS, 12/12/2016.<br>
+          <b>Não foi implementado</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="MT">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">13. MATO GROSSO</h5>
+         
+        <p class="mb-0">
+          ACT nº 14/2015 – SRPRF-MT X MPE-MT – 18/09/2015.<br>
+                    <b>Quantitativo de TCOs: 354</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="PA">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">14. PARÁ</h5>
+         
+        <p class="mb-0">
+          Convênio nº 007/2013 – SRPRF-PA X MPE-PA – 23/09/2013.<br>
+                    <b>Quantitativo de TCOs: 1.361</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="PB">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">15. PARAÍBA</h5>
+         
+        <p class="mb-0">
+          Recomendação nº 04/2014 – MPF; Recomendação nº 05/2014 – MPF e Recomendação nº 06/2014 – MPF.<br>
+                    <b>Quantitativo de TCOs: 605</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="PE">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">16. PERNAMBUCO</h5>
+         
+        <p class="mb-0">
+          Termo de Convênio de Cooperação Técnica nº 25/2013 – SRPRF-PE X MPE-PE – 02/08/2013.<br>
+                    <b>Quantitativo de TCOs: 167</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="PI">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">17. PIAUÍ</h5>
+         
+        <p class="mb-0">
+          Recomendação nº 02/2015 – MPF.<br>
+                    <b>Quantitativo de TCOs: 396</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="PR">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">18. PARANÁ</h5>
+         
+        <p class="mb-0">
+          Provimento n º 47/2003 – TJPR – Seção 18 – item 18.2.1.<br>
+                    <b>Quantitativo de TCOs: 452</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="RF">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">19. RIO DE JANEIRO</h5>
+         
+        <p class="mb-0">
+          Não possui documento formalizado, apenas tratativa verbal entre TJRJ e MPE-RJ.<br>
+                    <b>Capacitação realizada em julho/2017</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="RN">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">20. RIO GRANDE DO NORTE</h5>
+         
+        <p class="mb-0">
+          TCT nº 06/2012 – MPE-RN X SRPRF-RN.<br>
+                    TCT nº 15/2011 – MPE-RN X SRPRF-RN.<br>
+                    Provimento nº 144, de 11/03/2016 – TJRN.<br>
+                    TCT nº 28/2016 - MPE-RN X SRPRF-RN – 13/09/2016.<br>
+                    <b>Quantitativo de TCOs: 4.177</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="RO">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">21. RONDÔNIA</h5>
+         
+        <p class="mb-0">
+          Provimento n º 011/2017 – TJRO.<br>
+                    Quantitativo de TCOs: Não informado.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="RR">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">22. RORAIMA</h5>
+         
+        <p class="mb-0">
+          TC nº 001/2015 – MPE-RR X SRPRF-RR X TJRR – 29/10/2015.<br>
+                    <b>Quantitativo de TCOs: 169</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="RS">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">23. RIO GRANDE DO SUL</h5>
+         
+        <p class="mb-0">
+          Termo de Cooperação nº 005/2004.<br>
+                    ACT nº 03/2012 – MPE-RS X SRPRF-RS – 31/07/2012.<br>
+                    ACT nº 11/2017 - MPE-RS X SRPRF-RS – 25/07/2017.<br>
+                    <b>Quantitativo de TCOs: 8.046</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="SC">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">24. SANTA CATARINA</h5>
+         
+        <p class="mb-0">
+          Provimento nº 05/1999-TJSC.<br>
+                    TCT nº 005/2004 – SPRF-SC X MPE-SC.<br>
+                    <b>Quantitativo de TCOs: 8.073</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="SP">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">26. SÃO PAULO</h5>
+         
+        <p class="mb-0">
+          Provimento nº 758/2001 – Conselho Superior de Magistratura do TJSP.<br>
+                    Provimento nº 806/2003 – CSM.<br>
+                    ADI nº 2.862/2008 – Rel. Ministra Cármen Lúcia, DJ 09/05/2008.<br>
+                    <b>Quantitativo de TCOs: 575</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="SE">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">25. SERGIPE</h5>
+         
+        <p class="mb-0">
+          Provimento nº 13/2008 TJSE.<br>
+                    Provimento nº 16/2016 TJSE.<br>
+                    <b>Quantitativo de TCOs: Não informado</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="TO">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content pl-4 pr-4">
+      <button style="position: absolute; top:10px; right: 10px" type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+      <div class="p-3">
+
+        <h5 class="mb-3">27. TOCANTIS</h5>
+         
+        <p class="mb-0">
+          TCT s/n -21/08/2012 – MPE-TO X SPRF-TO.<br>
+                    <b>Quantitativo de TCOs: 552</b>.
+        </p> 
+               
+      </div>
+    </div>
+  </div>
+</div>
+
+
