@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 4",
-    "modulo-resumido": "M4",
-    "modulo-nome": "Gestão Operacional"
+    "modulo-numero": "MÓDULO 5",
+    "modulo-resumido": "M5",
+    "modulo-nome": "Gestão de pessoas<br>no serviço público"
   },
   "configuration": {
     "target": "#menu_item_list",
