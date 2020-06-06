@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 5",
-    "modulo-resumido": "M5",
-    "modulo-nome": "Gestão de pessoas<br>no serviço público"
+    "modulo-numero": "MÓDULO 6",
+    "modulo-resumido": "M6",
+    "modulo-nome": "Gestão de unidade na prf:<br>logística operacional"
   },
   "configuration": {
     "target": "#menu_item_list",
