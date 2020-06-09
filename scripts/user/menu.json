@@ -7,7 +7,7 @@
   "configuration": {
     "target": "#menu_item_list",
     "start-level": 0,
-    "max-level": 8,
+    "max-level": 6,
     "min-level": 0,
     "prefix-name": "pages/capitulo_"
   },
@@ -29,25 +29,12 @@
       "url": "pages/capitulo_3.html"
     },
     {
-      "placeholder": "Unidade 4",
+      "placeholder": "Considerações finais",
       "url": "pages/capitulo_4.html"
     },
     {
-      "placeholder": "Unidade 5",
-      "url": "pages/capitulo_5.html"
-    }
-    ,
-    {
-      "placeholder": "Considerações finais",
-      "url": "pages/capitulo_6.html"
-    },
-    {
-      "placeholder": "Atividades",
-      "url": "pages/capitulo_7.html"
-    },
-    {
       "placeholder": "Referências",
-      "url": "pages/capitulo_8.html"
+      "url": "pages/capitulo_5.html"
     }
   ]
 }
