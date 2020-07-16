@@ -9,19 +9,15 @@ var check_all_images_complete = function(callback) {
   let progress = 0;
   if ($(images_container).length) {
     $(images_container).one("load", function() {
-        console.log(progress);
-        console.log(number_images);
       progress++;
       if (progress >= number_images) {
         fire_once = setTimeout(function() {
           callback();
-          console.log("FIRED");
         }, 1000);
       }
     });
   } else {
     callback();
-    console.log("FIRED");
   }
 };
 
